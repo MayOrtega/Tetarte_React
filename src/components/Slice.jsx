@@ -1,14 +1,18 @@
 import Carousel from 'react-bootstrap/Carousel';
-import imagen1 from '../img/slide1.png'
 import imagen2 from '../img/slide2.png'
-import imagen3 from '../img/slide3.png'
+
 
 function Slice() {
   return (
     <>
+    
+   <div className='content-slide'>
+   <section className='left-slide'>
+    <img src={imagen2} className='img-left-slide'></img>
+    <img src={imagen2} className='img-left-slide'></img>
+   </section>
+    <section className='div-slice'>
     <h1 className='title-slice'>Galería</h1>
-   
-    <div className='div-slice'>
        <Carousel>
       <Carousel.Item interval={1000}>
       <img
@@ -22,7 +26,7 @@ function Slice() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src={imagen1}
+          src={imagen2}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -31,14 +35,19 @@ function Slice() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src={imagen3}
+          src={imagen2}
           alt="Third slide"
         />
         <Carousel.Caption>
           </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    </div>
+    </section>
+    <section className='rigth-slide'>
+    <img src={imagen2} className='img-rigth-slide'></img>
+    <img src={imagen2} className='img-rigth-slide'></img>
+   </section>
+   </div>
     </>
   );
 }

@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Blog from './views/Blog';
+import Blog from './views/LinkBlog';
 import Somos from './views/Somos';
 import Media from './views/Media';
 import Paises from './views/Paises';
@@ -16,7 +16,7 @@ root.render(
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<App />} />
-    <Route path="/views/Blog" element={<Blog />} />
+    <Route path="/views/LinkBlog" element={<Blog />} />
     <Route path="/views/Somos" element={<Somos />} />
     <Route path="/Paises" element={<Paises />} />
     <Route path="/views/Media" element={<Media />} />

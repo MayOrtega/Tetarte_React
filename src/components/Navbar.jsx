@@ -29,7 +29,7 @@ return (
         </Link>
         <div></div>
     </nav>
-    <img src={Logo} className="logo"></img>
+    <img src={Logo} className="logo" alt="logo"></img>
     </>
 )
 

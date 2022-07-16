@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
 
 body{
-  background-color: #212529;
+  background-color: #000002;
+  background-image: url('./img/fondo.png');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+  background-position-x: 40%;
 }
 
 .line{
@@ -11,6 +16,7 @@ body{
 
 nav{
   border: solid #C3BF4E 1px;
+  border-radius: 4px;
   font-family: 'Kite One';
   width: 98%;
   margin: 1% 0 0 1%;
@@ -18,8 +24,8 @@ nav{
 }
 
 .logo{
-  width: 10%;
-  margin: -3% 0 0 2%;
+  width: 8%;
+  margin: -3% 0 0 4%;
   position: absolute;
  
 }
@@ -33,12 +39,49 @@ a.links-nav{
   width: 10%;
 }
 
+
+/* Slide */
+
+.content-slide{
+  display: flex;
+  flex-direction: row;
+  border: solid #fff 2px;
+  border-radius: 20px;
+  margin: 7% 0 0 5%;
+  width: 90%;
+}
+
 .div-slice{
   width: 30%;
-  margin: 4% 0 0 35%;
-  border: solid #fff 2px;
-  border-radius: 10px;
+  margin: 2% 7% 0 -5%;
   
+  
+}
+
+.left-slide{
+  margin: 5% 0 0 10%;
+  width: 30%;
+}
+
+.img-left-slide{
+  width: 30%;
+  border: solid #fff 5px;
+  border-radius: 5px;
+  margin: 10% 3% 1% 3%;
+  opacity: 0.5;
+}
+
+.rigth-slide{
+  margin: 5% 0 10% 0;
+  width: 30%;
+  opacity: 0.5;
+}
+
+.img-rigth-slide{
+  width: 30%;
+  margin: 10% 3% 1% 3%;
+  border: solid #fff 5px;
+  border-radius: 5px;
 }
 
 img.d-block{
@@ -51,8 +94,80 @@ img.d-block{
   font-size: 2em;
   color: #fff;
   text-align: center;
-  margin: 2% 0 0 46%;
-  background-color: #212529;
+  margin: -1% 0 0 10%;
+  border-radius: 10px;
   position: absolute;
   
+}
+
+.content-inicio{
+  display: flex;
+  flex-direction: row;
+  margin:-1% 0 0 0;
+}
+
+.section1{
+  width: 70%;
+  margin: 2%;
+}
+
+.section2{
+  text-align: center;
+  width: 20%;
+}
+
+
+/* Blog */
+.amamantando{
+  width: 20%;
+  padding: 2%;
+}
+
+.div-blog{
+  border: solid #C3BF4E 1px;
+  width: 100%;
+  margin: 2%;
+  font-family: 'Kite One';
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.title-blog{
+  padding: 3%;
+  font-size: 2em;
+  color: #C3BF4E;
+
+}
+
+.texto-blog{
+  padding: 2%;
+  font-size: 1em;
+}
+
+/* Anuncio */
+
+.div-anuncio{
+  background-color: #c3bf4ea7;
+  width: 100%;
+  height: 80%;
+  margin: 18% 0 0 10%;
+  font-family: 'Kite One';
+  text-align: center;
+  font-weight: bold;
+}
+
+.baby{
+width: 80%;
+}
+
+.title-anuncio{
+  padding: 3% 0 0 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.p-anuncio{
+  background-color: salmon;
+  padding: 2%;
 }
