@@ -33,3 +33,26 @@ a.links-nav{
   width: 10%;
 }
 
+.div-slice{
+  width: 30%;
+  margin: 4% 0 0 35%;
+  border: solid #fff 2px;
+  border-radius: 10px;
+  
+}
+
+img.d-block{
+  padding: 10%;
+  width: 50%;
+}
+
+.title-slice{
+  font-family: 'Kite One';
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  margin: 2% 0 0 46%;
+  background-color: #212529;
+  position: absolute;
+  
+}
