@@ -31,7 +31,7 @@ nav{
 }
 
 a{
-  color: aliceblue;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ a.links-nav{
 .content-slide{
   display: flex;
   flex-direction: row;
-  border: solid #fff 2px;
+  border: solid #fff 1px;
   border-radius: 20px;
   margin: 7% 0 0 5%;
   width: 90%;
@@ -54,8 +54,6 @@ a.links-nav{
 .div-slice{
   width: 30%;
   margin: 2% 7% 0 -5%;
-  
-  
 }
 
 .left-slide{
@@ -91,10 +89,10 @@ img.d-block{
 
 .title-slice{
   font-family: 'Kite One';
-  font-size: 2em;
+  font-size: 2.5vw;
   color: #fff;
   text-align: center;
-  margin: -1% 0 0 10%;
+  margin: -1% 0 0 9%;
   border-radius: 10px;
   position: absolute;
   
@@ -118,9 +116,25 @@ img.d-block{
 
 
 /* Blog */
-.amamantando{
-  width: 20%;
+.amamantando, .mama, .mujer, .mujeres, .crianza{
   padding: 2%;
+  margin: 1%;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border: solid #C3BF4E 1px;
+    opacity: 0.8;
+}
+
+.amamantando, .crianza{
+  width: 16%;
+}
+
+.mama, .mujer, .mujeres{
+  width: 13%;
+}
+
+.mujeres{
+  width: 22%;
 }
 
 .div-blog{
@@ -131,18 +145,24 @@ img.d-block{
   border-radius: 10px;
   text-align: center;
   color: #fff;
+  background-color: #000002;
 }
 
 .title-blog{
   padding: 3%;
-  font-size: 2em;
+  font-size: 2.5vw;
   color: #C3BF4E;
 
 }
 
-.texto-blog{
-  padding: 2%;
-  font-size: 1em;
+h3{
+  font-size: 1.5vw;
+  text-align: left;
+  margin: 0 0 2% 6%;
+}
+
+.blogger{
+  width: 3%;
 }
 
 /* Anuncio */
@@ -163,11 +183,50 @@ width: 80%;
 
 .title-anuncio{
   padding: 3% 0 0 0;
-  font-size: 1em;
+  font-size: 2vw;
   font-weight: bold;
 }
 
 .p-anuncio{
-  background-color: salmon;
+  background-color: rgb(240, 110, 95);
   padding: 2%;
+}
+
+.flecha{
+  width: 5%;
+}
+
+/* Contacto */
+.title-contacto{
+  color: aqua;
+}
+
+.card-img-top{
+   width: 30%;
+}
+
+.card-deck{
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  width: 30%;
+  padding: 2%;
+  margin:   10% 5% 50% 5%;
+  text-align: center;
+  align-items: center;
+  background-color: #242424;
+  border: solid #C3BF4E 1px;
+  color: #fff;
+}
+
+.card-deck{
+  background-color: #000002;
+
+}
+
+/* Modal */
+.title-modal{
+  color: aqua;
 }

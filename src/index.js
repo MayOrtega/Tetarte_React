@@ -4,24 +4,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Blog from './views/LinkBlog';
-import Somos from './views/Somos';
-import Media from './views/Media';
-import Paises from './views/Paises';
+// import Somos from './views/Somos';
+// import Paises from './views/Paises';
 import Contacto from './views/Contacto'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<App />} />
-    <Route path="/views/LinkBlog" element={<Blog />} />
-    <Route path="/views/Somos" element={<Somos />} />
-    <Route path="/Paises" element={<Paises />} />
-    <Route path="/views/Media" element={<Media />} />
-    <Route path="/views/Constacto" element={<Contacto />} />
+    {/* <Route path="/views/Somos.jsx" element={<Somos />} />
+    <Route path="/views/Paises.jsx" element={<Paises />} /> */}
+    <Route path="/views/Contacto.jsx" element={<Contacto />} />
      </Routes>
   </BrowserRouter>
+  
 );
 

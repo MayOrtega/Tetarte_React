@@ -13,7 +13,7 @@ function Slice() {
    </section>
     <section className='div-slice'>
     <h1 className='title-slice'>Galería</h1>
-       <Carousel>
+      <Carousel>
       <Carousel.Item interval={1000}>
       <img
           className="d-block w-100"
