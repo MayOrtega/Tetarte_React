@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
 
+
 body{
   background-color: #000002;
   background-image: url('./img/fondo.png');
@@ -9,6 +10,7 @@ body{
   background-position-x: 40%;
 }
 
+/* Inicio */
 .line{
   height: 3px;
   
@@ -197,8 +199,14 @@ width: 80%;
 }
 
 /* Contacto */
-.title-contacto{
-  color: aqua;
+
+.content-contacto{
+  background-color: #000002;
+  background-image: url('./img/fondo.png');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+  background-position-x: 40%;
 }
 
 .card-img-top{
@@ -219,14 +227,58 @@ width: 80%;
   background-color: #242424;
   border: solid #C3BF4E 1px;
   color: #fff;
+  
 }
 
-.card-deck{
+h5{
+  font-size: 2vw;
+}
+
+h6{
+  font-size: 1vw;
+}
+
+h5, h6{
+  font-family: 'Kite One';
+}
+
+/* .card-deck{
   background-color: #000002;
 
-}
+} */
 
 .click{
   width: 15%;
   margin: 2%;
 }
+
+
+/* Países */
+.title-paises{
+  margin: 5% 0 0 0;
+  color: #fff;
+}
+
+.div-mapa{
+  width: 80%;
+  margin: 4% 0 0 10%;
+  border: solid #C3BF4E 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.div-paises{
+  text-align: center;
+  color: white;
+  font-family: 'Kite One';
+}
+
+.content-paises{
+  background-color: #000002;
+  background-image: url('./img/fondo.png');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 40%;
+}
+

@@ -10,7 +10,7 @@ import click from '../img/click.png'
 
 const Contacto = () => {
   return (
-    <div> 
+    <div className='content-contacto'> 
  <Navbar />
         <div className="card-deck">
   <div className="card">
