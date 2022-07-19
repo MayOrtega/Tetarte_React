@@ -286,3 +286,23 @@ h5, h6{
    border-radius: 8px;
 }
 
+/* Quienes somos */
+.title-quienes-somos{
+  margin: 0 0 5% 8%;
+}
+
+.quienes-somos{
+  background-color: #000002;
+}
+
+.section1-quienes-somos{
+  color: white;
+  width: 40%;
+  border: solid #fff 1px;
+  padding: 5%;
+  margin: 8% 0 0 5%;
+  font-family: 'Kite One';
+  background-color: #000002;
+  text-align: justify;
+}
+
