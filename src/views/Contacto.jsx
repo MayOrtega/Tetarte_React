@@ -15,7 +15,7 @@ const Contacto = () => {
         <div className="card-deck">
   <div className="card">
     <a href='https://www.instagram.com/tetarte_el_arte_de_amamantar'>
-    <img className="card-img-top" src={ig} alt="Card image cap"></img>
+    <img className="card-img-top" src={ig} alt="Card-image2"></img>
     </a>
     <div className="card-body">
     <a href='https://www.instagram.com/tetarte_el_arte_de_amamantar'>
@@ -25,7 +25,7 @@ const Contacto = () => {
      </div>
   </div>
   <div className="card">
-    <img className="card-img-top" src={gmail} alt="Card image cap"></img>
+    <img className="card-img-top" src={gmail} alt="Card"></img>
     <div className="card-body">
       <h5 className="card-title">Correo Electrónico</h5>
       <h6>onggrial@gmail.com</h6>
@@ -35,7 +35,7 @@ const Contacto = () => {
   </div>
   <div className="card">
   <a href='https://www.facebook.com/proyectotetarte'>
-    <img className="card-img-top" src={facebook} alt="Card image cap"></img>
+    <img className="card-img-top" src={facebook} alt="CardImage"></img>
     </a>
     <div className="card-body">
     <a href='https://www.instagram.com/tetarte_el_arte_de_amamantar'>

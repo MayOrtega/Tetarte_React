@@ -242,10 +242,7 @@ h5, h6{
   font-family: 'Kite One';
 }
 
-/* .card-deck{
-  background-color: #000002;
 
-} */
 
 .click{
   width: 15%;
@@ -255,19 +252,17 @@ h5, h6{
 
 /* Países */
 .title-paises{
-  margin: 5% 0 0 0;
+  margin: 3% 0 0 0;
   color: #fff;
 }
 
-.div-mapa{
-  width: 80%;
-  margin: 4% 0 0 10%;
-  border: solid #C3BF4E 5px;
-  border-radius: 10px;
-  text-align: center;
+.leaflet-container{
+  width: 100vw;
+  height: 100vh;
 }
 
 .div-paises{
+  width: 80%;
   text-align: center;
   color: white;
   font-family: 'Kite One';
@@ -278,7 +273,16 @@ h5, h6{
   background-image: url('./img/fondo.png');
   background-size: 75%;
   background-repeat: no-repeat;
-  background-position-y: 50%;
+  background-position-y: 80%;
   background-position-x: 40%;
+}
+
+
+.leaflet-container{
+   width: 99%;
+   height: 400px;
+   margin: 5% 0 0 12%;
+   border: solid #C3BF4E 8px;
+   border-radius: 8px;
 }
 

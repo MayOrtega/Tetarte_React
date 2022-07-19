@@ -8,8 +8,8 @@ function Slice() {
     
    <div className='content-slide'>
    <section className='left-slide'>
-    <img src={imagen2} className='img-left-slide'></img>
-    <img src={imagen2} className='img-left-slide'></img>
+    <img src={imagen2} className='img-left-slide' alt='img-left'></img>
+    <img src={imagen2} className='img-left-slide' alt='img-left2'></img>
    </section>
     <section className='div-slice'>
     <h1 className='title-slice'>Galería</h1>
@@ -44,8 +44,8 @@ function Slice() {
     </Carousel>
     </section>
     <section className='rigth-slide'>
-    <img src={imagen2} className='img-rigth-slide'></img>
-    <img src={imagen2} className='img-rigth-slide'></img>
+    <img src={imagen2} className='img-rigth-slide' alt='img-rigth'></img>
+    <img src={imagen2} className='img-rigth-slide' alt='img-rigth'></img>
    </section>
    </div>
     </>

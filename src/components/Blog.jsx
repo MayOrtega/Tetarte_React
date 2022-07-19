@@ -14,12 +14,12 @@ const Blog = () => {
         <h3 classname='texto-blog'>Si te interesa leer sobre temas contingentes de lactancia, mujer, maternidad, crianza y mucho más,
         <br/>
         </h3>
-        <h3 className='texto-blog2'>entra a nuestro blog aquí <img src={flecha} className='flecha'></img> <span><a href='http://expotetarte.blogspot.com'><img src={blogger} className='blogger'></img></a></span></h3>
-        <img src={amamantar} alt='amamantando' className='amamantando'></img>
-        <img src={mama} alt='mama' className='mama'></img>
-        <img src={mujer} alt='mujer' className='mujer'></img>
-        <img src={mujeres} alt='mujeres' className='mujeres'></img>
-        <img src={crianza} alt='crianza' className='crianza'></img>
+        <h3 className='texto-blog2'>entra a nuestro blog aquí <img src={flecha} className='flecha' alt=''></img> <span><a href='http://expotetarte.blogspot.com'><img src={blogger} className='blogger' alt=''></img></a></span></h3>
+        <img src={amamantar} alt='' className='amamantar'></img>
+        <img src={mama} alt='' className='mama'></img>
+        <img src={mujer} alt='' className='mujer'></img>
+        <img src={mujeres} alt='' className='mujeres'></img>
+        <img src={crianza} alt='' className='crianza'></img>
         
         
 
