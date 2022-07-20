@@ -6,7 +6,7 @@ const Advertising = () => {
     <div className='div-anuncio'>
       <h1 className='title-anuncio'>Espacio</h1>
       <p className='p-anuncio'>Disponible para anuncios</p>
-      <img src={baby} alt='baby' class='baby'></img>
+      <img src={baby} alt='baby' className='baby'></img>
     </div>
   )
 }

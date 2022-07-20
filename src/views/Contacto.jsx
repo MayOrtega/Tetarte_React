@@ -4,14 +4,20 @@ import gmail from '../img/gmail.png'
 import facebook from '../img/facebook.png'
 import Navbar from '../components/Navbar'
 import click from '../img/click.png'
+import {CopyToClipboard} from 'react-copy-to-clipboard'
+import { useState } from 'react'
+import copy from '../img/copy.png'
+
 
 
 
 
 const Contacto = () => {
+
+  const [copied, setCopied] = useState(false)
   return (
-    <div className='content-contacto'> 
- <Navbar />
+        <div className='content-contacto'> 
+      <Navbar />
         <div className="card-deck">
   <div className="card">
     <a href='https://www.instagram.com/tetarte_el_arte_de_amamantar'>
@@ -28,7 +34,16 @@ const Contacto = () => {
     <img className="card-img-top" src={gmail} alt="Card"></img>
     <div className="card-body">
       <h5 className="card-title">Correo Electrónico</h5>
-      <h6>onggrial@gmail.com</h6>
+      <CopyToClipboard text='onggrial@gmail.com'>
+        <> 
+      <img src={copy} onClick={() => setCopied(true)} style={{width:'14%'}}></img> 
+      <h6 className='text-mail'>onggrial@gmail.com</h6>
+      <p  style={{fontSize:'1%'}}>
+      {copied && <span>Texto copiado!</span>}
+      </p>
+      
+      </>
+      </CopyToClipboard>
       
       
     </div>

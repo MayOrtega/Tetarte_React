@@ -1,6 +1,7 @@
 import React from 'react'
 import MapView from '../components/MapView.jsx'
 import Navbar from '../components/Navbar.jsx'
+import Title from '../components/Title.jsx'
 
 
 const Paises = () => {
@@ -13,7 +14,7 @@ const Paises = () => {
           
         </div>
    <div className='div-paises'>
-   <h1>Participantes Expo Tetarte 2020</h1>
+   <Title title='Participantes ExpoTetarte 2020' />
    <div className='div-mapView'>
    <MapView />
    </div>

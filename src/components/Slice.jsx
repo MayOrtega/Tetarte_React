@@ -12,7 +12,7 @@ function Slice() {
     <img src={imagen2} className='img-left-slide' alt='img-left2'></img>
    </section>
     <section className='div-slice'>
-    <h1 className='title-slice'>Galería</h1>
+    <h1 className='title-slice'>Galería Tetarte</h1>
       <Carousel>
       <Carousel.Item interval={1000}>
       <img

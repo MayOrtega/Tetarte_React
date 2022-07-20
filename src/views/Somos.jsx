@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Title from "../components/Title";
+import foto1 from "../img/paloma.jpg"
 
 
 
@@ -10,9 +12,11 @@ const Somos = () => {
       <div>
         <Navbar />
       </div>
+      <div className='title-quienes-somos'>
+      <Title title='¿Quiénes somos?'/>
+      </div>
       <div className="content-quienes-somos">
-      <section className="section1-quienes-somos">
-        <h1 className="title-quienes-somos">¿Quiénes somos?</h1>
+            <section className="section1-quienes-somos">
         <p>
           Tetarte es un proyecto fotográfico pro lactancia materna cuyos
           objetivos son promover la lactancia materna, desmitificarla y
@@ -21,9 +25,8 @@ const Somos = () => {
         </p>
       </section>
       <section className="section2-quienes-somos">
-      
-    
-    </section>
+      <img src={foto1} className='foto1-somos' alt='fundadora'></img>
+     </section>
      
             </div>
       </div>

@@ -11,7 +11,7 @@ const Blog = () => {
   return (
     <div className='div-blog'>
         <h1 className='title-blog'>Blog Tetarte</h1>
-        <h3 classname='texto-blog'>Si te interesa leer sobre temas contingentes de lactancia, mujer, maternidad, crianza y mucho más,
+        <h3 className='texto-blog'>Si te interesa leer sobre temas contingentes de lactancia, mujer, maternidad, crianza y mucho más,
         <br/>
         </h3>
         <h3 className='texto-blog2'>entra a nuestro blog aquí <img src={flecha} className='flecha' alt=''></img> <span><a href='http://expotetarte.blogspot.com'><img src={blogger} className='blogger' alt=''></img></a></span></h3>

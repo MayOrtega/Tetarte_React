@@ -2,6 +2,23 @@ import React from 'react'
 import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 import'leaflet/dist/leaflet.css'
 import L from 'leaflet';
+import Mexico from '../img/México.jpg'
+import Popayan from '../img/Popayán copia.jpg'
+import Cali from '../img/Cali Colombia Marcela Cadavid copia.jpg'
+import Armenia from '../img/Armenia.jpg'
+import Alcoy from '../img/Alcoy-España.jpg'
+import Bucaramanga from '../img/Bucaramanga.jpg'
+import Barranquilla from '../img/Barranquilla.jpg'
+import Pichilemu from '../img/Pichilemu.jpg'
+import LaLigua from '../img/La-Ligua.jpg'
+import Temuco from '../img/Temuco.jpg'
+import Rancagua from '../img/Rancagua.jpg'
+import Castro from '../img/Castro.jpg'
+import Chillan from '../img/Chillan.jpg'
+import Quintero from '../img/Quintero.jpg'
+import SanAntonio from '../img/San-Antonio.jpg'
+import Valparaiso from '../img/Valparaiso.jpg'
+import Santiago from '../img/Santiago grupo 1.jpg'
 
 const markerIcon = new L.Icon({
 
@@ -14,7 +31,7 @@ const markerIcon = new L.Icon({
 
 const MapView = () => {
 
-    const position = [0, 0]
+    const position = [-10, 0]
     const santiago = [-33.37791478785865, -70.728746157947735]
     const valparaiso = [-33.045375264417544, -71.61104914367112]
     const sanAntonio = [-33.5916449111982, -71.60307076789296]
@@ -41,42 +58,110 @@ const MapView = () => {
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     />
     <Marker position={santiago} icon={markerIcon} >
-    <Marker position={valparaiso} icon={markerIcon}>
-    <Marker position={sanAntonio} icon={markerIcon}>
-    <Marker position={quintero} icon={markerIcon}>
-    <Marker position={chillan} icon={markerIcon}>
-    <Marker position={castro} icon={markerIcon}>
-    <Marker position={rancagua} icon={markerIcon}>
-    <Marker position={temuco} icon={markerIcon}>
-    <Marker position={laLigua} icon={markerIcon}>
-    <Marker position={pichilemu} icon={markerIcon}>
-    <Marker position={barranquilla} icon={markerIcon}>
-    <Marker position={bucaramanga} icon={markerIcon}>
-    <Marker position={alcoy} icon={markerIcon}>
-    <Marker position={armenia} icon={markerIcon}>
-    <Marker position={cali} icon={markerIcon}>
-    <Marker position={popayan} icon={markerIcon}>
-    <Marker position={mexico} icon={markerIcon}>
-      <Popup>
-        A pretty CSS3 popup. <br /> Easily customizable.
+    <Popup>
+      <p>Santiago de Chile</p>
+        <img src={Santiago} className='img-popup'></img>
       </Popup>
     </Marker>
+    <Marker position={valparaiso} icon={markerIcon}>
+    <Popup>
+      <p>Valparaíso - Chile</p>
+        <img src={Valparaiso} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={sanAntonio} icon={markerIcon}>
+    <Popup>
+      <p>San Antonio - Chile</p>
+        <img src={SanAntonio} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={quintero} icon={markerIcon}>
+    <Popup>
+      <p>Quintero - Chilr</p>
+        <img src={Quintero} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={chillan} icon={markerIcon}>
+    <Popup>
+      <p>Chillán - Chile</p>
+        <img src={Chillan} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={castro} icon={markerIcon}>
+    <Popup>
+      <p>Castro - Chile</p>
+        <img src={Castro} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={rancagua} icon={markerIcon}>
+    <Popup>
+      <p>Rancagua - Chile</p>
+        <img src={Rancagua} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={temuco} icon={markerIcon}>
+    <Popup>
+      <p>Temuco - Chile</p>
+        <img src={Temuco} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={laLigua} icon={markerIcon}>
+    <Popup>
+      <p>La Ligua - Chile</p>
+        <img src={LaLigua} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={pichilemu} icon={markerIcon}>
+    <Popup>
+      <p>Pichilemu - Chile</p>
+        <img src={Pichilemu} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={barranquilla} icon={markerIcon}>
+    <Popup>
+      <p>Barranquilla - Colombia</p>
+        <img src={Barranquilla} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={bucaramanga} icon={markerIcon}>
+    <Popup>
+      <p>Bucaramanga - Colombia</p>
+        <img src={Bucaramanga} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={alcoy} icon={markerIcon}>
+    <Popup>
+      <p>Alcoy-España</p>
+        <img src={Alcoy} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={armenia} icon={markerIcon}>
+    <Popup>
+      <p>Armenia</p>
+        <img src={Armenia} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={cali} icon={markerIcon}>
+    <Popup>
+      <p>Cali - Colombia</p>
+        <img src={Cali} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={popayan} icon={markerIcon}>
+    <Popup>
+      <p>Popayan - Colombia</p>
+        <img src={Popayan} className='img-popup'></img>
+      </Popup>
     </Marker>
+    <Marker position={mexico} icon={markerIcon}>
+    <Popup>
+      <p>México</p>
+        <img src={Mexico} className='img-popup'></img>
+      </Popup>
+     
     </Marker>
+    
+    
   </MapContainer>
     )
 }
