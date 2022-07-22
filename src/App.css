@@ -3,10 +3,10 @@
 
 body{
   background-color: #000002;
-  background-image: url('./img/fondo.png');
-  background-size: 75%;
+  background-image: url('./img/banner.jpg');
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 10%;
+  background-position-y: 8%;
   background-position-x: 40%;
 }
 
@@ -16,9 +16,11 @@ body{
   
 }
 
+nav.navbar.navbar-dark{
+  background-color: #000002;
+}
+
 nav{
-  /* border: solid #C3BF4E 1px;
-  border-radius: 4px; */
   font-family: 'Kite One';
   width: 98%;
   margin: 1% 0 0 1%;
@@ -53,7 +55,7 @@ a.links-nav{
   flex-direction: row;
   /* border: solid #fff 1px;
   border-radius: 20px; */
-  margin: 2% 0 0 5%;
+  margin: 2% 0 0 0;
   width: 100%;
 }
 
@@ -98,10 +100,13 @@ img.d-block{
   font-family: 'Kite One';
   font-size: 2.5vw;
   color: #fff;
+  background-color: #0000022a;
+  font-weight: bold;
   text-align: center;
-  margin: -1% 0 0 5%;
+  margin: -3% 0 0 3%;
   border-radius: 10px;
   position: absolute;
+  padding: 2% 3.5% 2% 3.5%;
   
 }
 
@@ -109,11 +114,11 @@ img.d-block{
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin:-1% 0 0 5%;
+  margin:3% 0 0 5%;
 }
 
 .section1{
-  width: 25%;
+  width: 60%;
   margin: 2%;
 }
 
@@ -124,9 +129,23 @@ img.d-block{
 
 .section-video-slice{
   width: 40%;
-  margin: 3% 0 0 0;
- 
+  margin: 5% 0 0 0%;
+  padding: 0 0 0 10%;
   
+}
+
+.content-video-slice{
+  margin: 15% 0 0 0;
+}
+
+.title-videos{
+  font-family: 'Kite One';
+  color:#fff;
+  font-size: 2.5vw;
+  margin: 0 0 0 5%;
+  width: 100%;
+  
+
 }
 
 
@@ -224,7 +243,7 @@ height: 40%;
 }
 
 .card-img-top{
-   width: 30%;
+   width: 20%;
 }
 
 .card-deck{

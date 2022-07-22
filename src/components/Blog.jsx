@@ -10,7 +10,7 @@ import flecha from '../img/flecha-correcta.png'
 const Blog = () => {
   return (
     <div className='div-blog'>
-        <h1 className='title-blog'>Blog Tetarte</h1>
+        <h1 className='title-blog'>Blog TetArte</h1>
         <h3 className='texto-blog'>Si te interesa leer sobre temas contingentes de lactancia, mujer, maternidad, crianza y mucho más,
         <br/>
         </h3>
