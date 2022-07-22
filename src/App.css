@@ -17,8 +17,8 @@ body{
 }
 
 nav{
-  border: solid #C3BF4E 1px;
-  border-radius: 4px;
+  /* border: solid #C3BF4E 1px;
+  border-radius: 4px; */
   font-family: 'Kite One';
   width: 98%;
   margin: 1% 0 0 1%;
@@ -37,6 +37,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  color: #C3BF4E;
+}
+
 a.links-nav{
   width: 10%;
 }
@@ -47,10 +51,10 @@ a.links-nav{
 .content-slide{
   display: flex;
   flex-direction: row;
-  border: solid #fff 1px;
-  border-radius: 20px;
-  margin: 7% 0 0 5%;
-  width: 90%;
+  /* border: solid #fff 1px;
+  border-radius: 20px; */
+  margin: 2% 0 0 5%;
+  width: 100%;
 }
 
 .div-slice{
@@ -86,7 +90,8 @@ a.links-nav{
 
 img.d-block{
   padding: 10%;
-  width: 50%;
+  width: 500px;
+  height: 310px;
 }
 
 .title-slice{
@@ -101,19 +106,27 @@ img.d-block{
 }
 
 .content-inicio{
+  width: 100%;
   display: flex;
   flex-direction: row;
-  margin:-1% 0 0 0;
+  margin:-1% 0 0 5%;
 }
 
 .section1{
-  width: 70%;
+  width: 25%;
   margin: 2%;
 }
 
 .section2{
   text-align: center;
-  width: 20%;
+  width: 30%;
+}
+
+.section-video-slice{
+  width: 40%;
+  margin: 3% 0 0 0;
+ 
+  
 }
 
 
@@ -140,14 +153,14 @@ img.d-block{
 }
 
 .div-blog{
-  border: solid #C3BF4E 1px;
+  /* border: solid #C3BF4E 1px; */
   width: 100%;
   margin: 2%;
   font-family: 'Kite One';
-  border-radius: 10px;
+  /* border-radius: 10px; */
   text-align: center;
   color: #fff;
-  background-color: #000002;
+  /* background-color: #000002; */
 }
 
 .title-blog{
@@ -171,7 +184,7 @@ h3{
 
 .div-anuncio{
   background-color: #c3bf4ea7;
-  width: 100%;
+  width: 60%;
   height: 80%;
   margin: 18% 0 0 10%;
   font-family: 'Kite One';
@@ -180,7 +193,8 @@ h3{
 }
 
 .baby{
-width: 80%;
+width: 60%;
+height: 40%;
 }
 
 .title-anuncio{
