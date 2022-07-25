@@ -1,5 +1,4 @@
 import Carousel from "react-bootstrap/Carousel";
-import imagen2 from "../img/slide2.png";
 import Santiago1 from "../img/Santiago grupo 1.jpg";
 import Valparaiso from "../img/Valparaiso.jpg";
 import SanAntonio from "../img/San-Antonio.jpg";
@@ -16,7 +15,9 @@ import Alcoy from "../img/Alcoy-España.jpg";
 import LaLigua from "../img/La-Ligua.jpg";
 import Temuco from "../img/Temuco.jpg";
 import Armenia from "../img/Armenia.jpg";
-
+import Modal from './Modal'
+import foto from '../img/Santiago grupo 1.jpg'
+import useModal from './useModal'
 function Slice() {
   return (
     <>

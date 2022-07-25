@@ -4,9 +4,11 @@ import Slice from "../components/Slice";
 import Blog from "../components/Blog";
 import Anuncio1 from "../components/Advertising";
 import VideoSlice from "../components/VideoSlice";
+import Modals from "../components/Modals.jsx";
 
 const Inicio = () => {
   return (
+    <>
     <div>
       <Navbar />
       <Slice />
@@ -18,9 +20,9 @@ const Inicio = () => {
           <VideoSlice />
         </section>
       </div>
-      {/* <section className='section2'>
-                  <Anuncio1 /></section> */}
     </div>
+    <Modals />
+    </>
   );
 };
 
