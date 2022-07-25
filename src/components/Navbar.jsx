@@ -1,33 +1,29 @@
-import {Link} from "react-router-dom"
-import Logo from '../img/logotetarte negro.png'
-
+import { Link } from "react-router-dom";
+import Logo from "../img/logotetarte negro.png";
 
 const Navbar = () => {
-return (
+  return (
     <>
-    <div className="line"></div>
-    <nav className="navbar navbar-dark bg-dark">
-         <Link to="/" className="links-nav">
-           
-        </Link>
+      <div className="line"></div>
+      <nav className="navbar navbar-dark bg-dark">
+        <Link to="/" className="links-nav"></Link>
         <Link to="/" className="links-nav">
-            Inicio
+          Inicio
         </Link>
         <Link to="../views/Somos.jsx" className="links-nav">
-            Quiénes Somos
+          Quiénes Somos
         </Link>
         <Link to="../views/Paises.jsx" className="links-nav">
-            Países
+          Países
         </Link>
-        <Link to='../views/Contacto.jsx' className="links-nav">
-            Contacto
+        <Link to="../views/Contacto.jsx" className="links-nav">
+          Contacto
         </Link>
         <div></div>
-    </nav>
-    <img src={Logo} className="logo" alt="logo"></img>
+      </nav>
+      <img src={Logo} className="logo" alt="logo"></img>
     </>
-)
-
+  );
 };
 
-export default Navbar
+export default Navbar;

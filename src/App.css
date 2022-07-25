@@ -6,7 +6,7 @@ body{
   background-image: url('./img/banner.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 8%;
+  background-position-y: 12%;
   background-position-x: 40%;
 }
 
@@ -71,7 +71,7 @@ a.links-nav{
 
 .img-left-slide{
   width: 30%;
-  border: solid #fff 5px;
+  /* border: solid #fff 3px; */
   border-radius: 5px;
   margin: 10% 3% 1% 3%;
   opacity: 0.5;
@@ -86,7 +86,7 @@ a.links-nav{
 .img-rigth-slide{
   width: 30%;
   margin: 10% 3% 1% 3%;
-  border: solid #fff 5px;
+  /* border: solid #fff 3px; */
   border-radius: 5px;
 }
 
@@ -129,7 +129,7 @@ img.d-block{
 
 .section-video-slice{
   width: 40%;
-  margin: 5% 0 0 0%;
+  margin: 3% 0 0 0%;
   padding: 0 0 0 10%;
   
 }
@@ -174,7 +174,7 @@ img.d-block{
 .div-blog{
   /* border: solid #C3BF4E 1px; */
   width: 100%;
-  margin: 2%;
+  margin: -2% 0 0 0;
   font-family: 'Kite One';
   /* border-radius: 10px; */
   text-align: center;
@@ -233,17 +233,19 @@ height: 40%;
 
 /* Contacto */
 
-.content-contacto{
+/* .content-contacto{
   background-color: #000002;
-  background-image: url('./img/fondo.png');
-  background-size: 75%;
+  background-image: url('./img/fondoOpacidad.jpg');
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position-y: 10%;
-  background-position-x: 40%;
-}
+  background-position-x: 50%;
+  overflow-y: hidden;
+  
+} */
 
 .card-img-top{
-   width: 20%;
+   width: 12%;
 }
 
 .card-deck{
@@ -253,6 +255,7 @@ height: 40%;
 
 .card{
   width: 30%;
+  height: 50%;
   padding: 2%;
   margin:   10% 5% 50% 5%;
   text-align: center;
@@ -288,38 +291,37 @@ h5, h6{
 
 /* Países */
 .title-paises{
-  margin: 3% 0 0 0;
+  margin: 5% 0 0 0;
   color: #fff;
+  background-color: #0000022a;
+  width: 50%;
+  font-family: 'Kite One';
+  margin: 4% 0 2% 0;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
 }
+
 
 .leaflet-container{
   width: 100vw;
   height: 100vh;
 }
 
-.div-paises{
-  width: 80%;
+.div-mapView{
+  width: 90%;
   text-align: center;
   color: white;
   font-family: 'Kite One';
 }
 
-.content-paises{
-  background-color: #000002;
-  background-image: url('./img/fondo.png');
-  background-size: 75%;
-  background-repeat: no-repeat;
-  background-position-y: 80%;
-  background-position-x: 40%;
-}
-
-
 .leaflet-container{
    width: 99%;
    height: 430px;
-   margin: 5% 0 0 12%;
-   border: solid #C3BF4E 8px;
+   margin: 5% 0 0 6%;
+   border: solid #C3BF4E 3px;
    border-radius: 8px;
+   filter: grayscale(70%);
 }
 
 .img-popup{
@@ -338,18 +340,24 @@ h5, h6{
 .title-quienes-somos{
   text-align: center;
   color: white;
+  background-color: #0000022a;
+  width: 50%;
   font-family: 'Kite One';
-  margin: 2% 0 2% 0;
+  margin: 4% 0 2% 0;
+  font-weight: bold;
+  text-align: center;
+  /* margin: -3% 0 0 3%; */
+  border-radius: 10px;
 }
 
 
-.quienes-somos{
+/* .quienes-somos{
   background-color: #000002;
   background-image: url(./img/fondo.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position-y: 110% ;
-}
+} */
 
 .section1-quienes-somos{
   color: white;
