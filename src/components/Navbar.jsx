@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import Logo from "../img/logotetarte negro.png";
+import Logo from "../img/logotetarte-negro.png";
 
 const Navbar = () => {
   return (
     <>
       <div className="line"></div>
       <nav className="navbar navbar-dark bg-dark">
+        <hr />
         <Link to="/" className="links-nav"></Link>
         <Link to="/" className="links-nav">
           Inicio
@@ -19,6 +20,7 @@ const Navbar = () => {
         <Link to="../views/Contacto.jsx" className="links-nav">
           Contacto
         </Link>
+        <hr />
         <div></div>
       </nav>
       <img src={Logo} className="logo" alt="logo"></img>

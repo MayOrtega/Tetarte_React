@@ -149,7 +149,7 @@ const MapView = () => {
       </Marker>
       <Marker position={mexico} icon={markerIcon}>
         <Popup>
-          <p>México</p>
+          <p>Zacatecas - México</p>
           <img src={Mexico} className="img-popup"></img>
         </Popup>
       </Marker>

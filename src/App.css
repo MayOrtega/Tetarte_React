@@ -42,6 +42,15 @@ nav{
   
 }
 
+  hr {
+    height: 40px;
+    width: 24%;
+    background-color: #fff;
+    color: #fff;
+    padding: 0.2%;
+  }
+
+
 .logo{
   width: 8%;
   margin: -3% 0 0 4%;
@@ -379,6 +388,12 @@ border-radius: 5px;
 /* Modales */
 .img-modal{
 width: 100%;
+}
+
+.title-modal{
+  color: #C3BF4E;
+  font-family: 'Kite One';
+
 }
 
 .modal {

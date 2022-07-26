@@ -17,6 +17,7 @@ import Temuco from "../img/Temuco.jpg";
 import Armenia from "../img/Armenia.jpg";
 import Modal from './Modal'
 import useModal from './useModal'
+import Zacatecas from '../img/México.jpg'
 
 function Slice() {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false)
@@ -35,6 +36,7 @@ function Slice() {
   const [isOpenModal14, openModal14, closeModal14] = useModal(false)
   const [isOpenModal15, openModal15, closeModal15] = useModal(false)
   const [isOpenModal16, openModal16, closeModal16] = useModal(false)
+  const [isOpenModal17, openModal17, closeModal17] = useModal(false)
 
   return (
     <>
@@ -172,6 +174,13 @@ function Slice() {
               onClick={openModal16} />
               <Carousel.Caption></Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+              <img className="d-block w-100" 
+              src={Zacatecas} 
+              alt="Third slide"
+              onClick={openModal17} />
+              <Carousel.Caption></Carousel.Caption>
+            </Carousel.Item>
           </Carousel>
         </section>
         <section className="rigth-slide">
@@ -183,52 +192,72 @@ function Slice() {
           ></img>
         </section>
         <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
+         <h1 className="title-modal"> Castro - Chile</h1>
             <img src={Castro} className='img-modal' alt="castro"></img>
         </Modal>
         <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
+        <h1 className="title-modal"> Santiago - Chile</h1>
             <img src={Santiago1} className='img-modal' alt="santiago"></img>
         </Modal>
         <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
+        <h1 className="title-modal"> Valparaíso - Chile</h1>
             <img src={Valparaiso} className='img-modal' alt="valparaiso"></img>
         </Modal>
         <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
+        <h1 className="title-modal"> La Ligua - Chile</h1>
             <img src={LaLigua} className='img-modal' alt="la-ligua"></img>
         </Modal>
         <Modal isOpen={isOpenModal5} closeModal={closeModal5}>
+        <h1 className="title-modal"> Temuco - Chile</h1>
             <img src={Temuco} className='img-modal' alt="temuco"></img>
         </Modal>
         <Modal isOpen={isOpenModal6} closeModal={closeModal6}>
+        <h1 className="title-modal"> San Antonio - Chile</h1>
             <img src={SanAntonio} className='img-modal' alt="san-Antonio"></img>
-        </Modal>
+          </Modal>
         <Modal isOpen={isOpenModal7} closeModal={closeModal7}>
+        <h1 className="title-modal"> Quintero - Chile</h1>
             <img src={Quintero} className='img-modal' alt="quintero"></img>
         </Modal>
         <Modal isOpen={isOpenModal8} closeModal={closeModal8}>
+        <h1 className="title-modal"> Rancagua - Chile</h1>
             <img src={Rancagua} className='img-modal' alt="rancagua"></img>
         </Modal>
         <Modal isOpen={isOpenModal9} closeModal={closeModal9}>
+        <h1 className="title-modal"> Chillán - Chile</h1>
             <img src={Chillan} className='img-modal' alt="chillan"></img>
         </Modal>
         <Modal isOpen={isOpenModal10} closeModal={closeModal10}>
+        <h1 className="title-modal"> Pichilemu - Chile</h1>
             <img src={Pichilemu} className='img-modal' alt="pichilemu"></img>
         </Modal>
         <Modal isOpen={isOpenModal11} closeModal={closeModal11}>
+        <h1 className="title-modal"> Barranquilla - Colombia</h1>
             <img src={Barranquilla} className='img-modal' alt="barranquilla"></img>
         </Modal>
         <Modal isOpen={isOpenModal12} closeModal={closeModal12}>
+        <h1 className="title-modal"> Bucaramanga - Colombia</h1>
             <img src={Bucaramanga} className='img-modal' alt="bucaramanga"></img>
         </Modal>
         <Modal isOpen={isOpenModal13} closeModal={closeModal13}>
+        <h1 className="title-modal"> Armenia - Colombia</h1>
             <img src={Armenia} className='img-modal' alt="armenia"></img>
         </Modal>
         <Modal isOpen={isOpenModal14} closeModal={closeModal14}>
+        <h1 className="title-modal"> Popayán - Colombia</h1>
             <img src={Popayan} className='img-modal' alt="popayan"></img>
         </Modal>
         <Modal isOpen={isOpenModal15} closeModal={closeModal15}>
+        <h1 className="title-modal"> Cali - Colombia</h1>
             <img src={Cali} className='img-modal' alt="cali"></img>
         </Modal>
         <Modal isOpen={isOpenModal16} closeModal={closeModal16}>
+        <h1 className="title-modal"> Alcoy - España</h1>
             <img src={Alcoy} className='img-modal' alt="alcoy"></img>
+        </Modal>
+        <Modal isOpen={isOpenModal17} closeModal={closeModal17}>
+        <h1 className="title-modal"> Zacatecas - México</h1>
+            <img src={Zacatecas} className='img-modal' alt="zacatecas"></img>
         </Modal>
       </div>
     </>
