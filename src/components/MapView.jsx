@@ -71,7 +71,7 @@ const MapView = () => {
       </Marker>
       <Marker position={quintero} icon={markerIcon}>
         <Popup>
-          <p>Quintero - Chilr</p>
+          <p>Quintero - Chile</p>
           <img src={Quintero} className="img-popup"></img>
         </Popup>
       </Marker>
@@ -131,7 +131,7 @@ const MapView = () => {
       </Marker>
       <Marker position={armenia} icon={markerIcon}>
         <Popup>
-          <p>Armenia</p>
+          <p>Armenia - Colombia</p>
           <img src={Armenia} className="img-popup"></img>
         </Popup>
       </Marker>
