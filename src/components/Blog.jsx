@@ -20,7 +20,7 @@ const Blog = () => {
         entra a nuestro blog aquí{" "}
         <img src={flecha} className="flecha" alt=""></img>{" "}
         <span>
-          <a href="http://expotetarte.blogspot.com">
+          <a href="http://expotetarte.blogspot.com" target="_blank">
             <img src={blogger} className="blogger" alt=""></img>
           </a>
         </span>

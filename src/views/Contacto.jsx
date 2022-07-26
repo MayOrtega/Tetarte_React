@@ -7,19 +7,22 @@ import click from "../img/click.png";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useState } from "react";
 import copy from "../img/copy.png";
-
+import Title from "../components/Title";
 const Contacto = () => {
   const [copied, setCopied] = useState(false);
   return (
     <div className="content-contacto">
       <Navbar />
+      <div className="title-contacto">
+        Contáctanos
+      </div>
       <div className="card-deck">
         <div className="card">
-          <a href="https://www.instagram.com/tetarte_el_arte_de_amamantar">
+          <a href="https://www.instagram.com/tetarte_el_arte_de_amamantar" target="_blank">
             <img className="card-img-top" src={ig} alt="Card-image2"></img>
           </a>
           <div className="card-body">
-            <a href="https://www.instagram.com/tetarte_el_arte_de_amamantar">
+            <a href="https://www.instagram.com/tetarte_el_arte_de_amamantar" target="_blank">
               <img src={click} className="click" alt="click"></img>
             </a>
             <h5 className="card-title">Instagram TetArte</h5>
@@ -45,11 +48,11 @@ const Contacto = () => {
           </div>
         </div>
         <div className="card">
-          <a href="https://www.facebook.com/proyectotetarte">
+          <a href="https://www.facebook.com/proyectotetarte" target="_blank">
             <img className="card-img-top" src={facebook} alt="CardImage"></img>
           </a>
           <div className="card-body">
-            <a href="https://www.instagram.com/tetarte_el_arte_de_amamantar">
+            <a href="https://www.facebook.com/proyectotetarte" target="_blank">
               <img src={click} className="click" alt="click"></img>
             </a>
             <h5 className="card-title">Facebook Tetarte</h5>

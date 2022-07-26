@@ -11,6 +11,21 @@ body{
 }
 
 /* Inicio */
+
+.title-inicio{
+  width: 50%;
+  font-family: 'Kite One';
+  font-size: 2.5vw;
+  color: #fff;
+  background-color: #0000022a;
+  font-weight: bold;
+  text-align: center;
+  margin: 4% 0 0 0;
+  border-radius: 10px;
+  position: absolute;
+  padding: 1% 3.5% 1% 3.5%;
+}
+
 .line{
   height: 3px;
   
@@ -53,15 +68,13 @@ a.links-nav{
 .content-slide{
   display: flex;
   flex-direction: row;
-  /* border: solid #fff 1px;
-  border-radius: 20px; */
-  margin: 2% 0 0 0;
+  margin: 2% 0 0 2%;
   width: 100%;
 }
 
 .div-slice{
   width: 30%;
-  margin: 2% 7% 0 -5%;
+  margin: 2% 7% 0 -2%;
 }
 
 .left-slide{
@@ -71,7 +84,6 @@ a.links-nav{
 
 .img-left-slide{
   width: 30%;
-  /* border: solid #fff 3px; */
   border-radius: 5px;
   margin: 10% 3% 1% 3%;
   opacity: 0.5;
@@ -85,8 +97,7 @@ a.links-nav{
 
 .img-rigth-slide{
   width: 30%;
-  margin: 10% 3% 1% 3%;
-  /* border: solid #fff 3px; */
+  margin: 10% 3% 1% 1%;
   border-radius: 5px;
 }
 
@@ -96,19 +107,6 @@ img.d-block{
   height: 310px;
 }
 
-.title-slice{
-  font-family: 'Kite One';
-  font-size: 2.5vw;
-  color: #fff;
-  background-color: #0000022a;
-  font-weight: bold;
-  text-align: center;
-  margin: -3% 0 0 3%;
-  border-radius: 10px;
-  position: absolute;
-  padding: 2% 3.5% 2% 3.5%;
-  
-}
 
 .content-inicio{
   width: 100%;
@@ -129,7 +127,7 @@ img.d-block{
 
 .section-video-slice{
   width: 40%;
-  margin: 3% 0 0 0%;
+  margin: 5% 0 0 0%;
   padding: 0 0 0 10%;
   
 }
@@ -146,6 +144,10 @@ img.d-block{
   width: 100%;
   
 
+}
+
+.sectionVideos{
+  margin: 3% 0 0 7%;
 }
 
 
@@ -172,15 +174,12 @@ img.d-block{
 }
 
 .div-blog{
-  /* border: solid #C3BF4E 1px; */
   width: 100%;
-  margin: -2% 0 0 0;
+  margin: 2% 0 0 0;
   font-family: 'Kite One';
-  /* border-radius: 10px; */
   text-align: center;
   color: #fff;
-  /* background-color: #000002; */
-}
+ }
 
 .title-blog{
   padding: 3%;
@@ -203,17 +202,17 @@ h3{
 
 .div-anuncio{
   background-color: #c3bf4ea7;
-  width: 60%;
-  height: 80%;
-  margin: 18% 0 0 10%;
+  width: 80%;
+  height: 5%;
+  margin: 1% 0 0 10%;
   font-family: 'Kite One';
   text-align: center;
   font-weight: bold;
 }
 
 .baby{
-width: 60%;
-height: 40%;
+width: 20%;
+height: 10%;
 }
 
 .title-anuncio{
@@ -232,17 +231,18 @@ height: 40%;
 }
 
 /* Contacto */
-
-/* .content-contacto{
-  background-color: #000002;
-  background-image: url('./img/fondoOpacidad.jpg');
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position-y: 10%;
-  background-position-x: 50%;
-  overflow-y: hidden;
-  
-} */
+.title-contacto{
+  margin: 5% 0 0 0;
+  color: #fff;
+  background-color: #0000022a;
+  width: 50%;
+  font-family: 'Kite One';
+  margin: 4% 1% 0 0;
+  font-size: 2.5rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1% 0 1% 0;
+}
 
 .card-img-top{
    width: 12%;
@@ -257,7 +257,7 @@ height: 40%;
   width: 30%;
   height: 50%;
   padding: 2%;
-  margin:   10% 5% 50% 5%;
+  margin:   6% 5% 50% 5%;
   text-align: center;
   align-items: center;
   background-color: #242424;
@@ -300,6 +300,7 @@ h5, h6{
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
+  padding: 1% 0 1% 0;
 }
 
 
@@ -318,7 +319,7 @@ h5, h6{
 .leaflet-container{
    width: 99%;
    height: 430px;
-   margin: 5% 0 0 6%;
+   margin: 2% 0 0 6%;
    border: solid #C3BF4E 3px;
    border-radius: 8px;
    filter: grayscale(70%);
@@ -346,25 +347,17 @@ h5, h6{
   margin: 4% 0 2% 0;
   font-weight: bold;
   text-align: center;
-  /* margin: -3% 0 0 3%; */
+  padding: 1% 0 1% 0;
   border-radius: 10px;
 }
 
-
-/* .quienes-somos{
-  background-color: #000002;
-  background-image: url(./img/fondo.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position-y: 110% ;
-} */
 
 .section1-quienes-somos{
   color: white;
   width: 50%;
   border: solid #fff 1px;
   padding: 5%;
-  margin: 8% 0 0 5%;
+  margin: 3% 0 0 5%;
   font-family: 'Kite One';
   background-color: #000002;
   text-align: justify;
@@ -404,12 +397,12 @@ width: 100%;
 .modal-container {
   position: relative;
   padding: 1rem;
-  min-width: 320px;
-  max-width: 480px;
-  min-height: 200px;
-  max-height: 600px;
+  min-width: 640px;
+  max-width: 960px;
+  min-height: 400px;
+  max-height: 1200px;
   overflow-y: auto;
-  background-color: #fff;
+  
 }
 
 .modal-close {

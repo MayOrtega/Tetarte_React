@@ -4,13 +4,17 @@ import Slice from "../components/Slice";
 import Blog from "../components/Blog";
 import Anuncio1 from "../components/Advertising";
 import VideoSlice from "../components/VideoSlice";
-import Modals from "../components/Modals.jsx";
+import Title from "../components/Title";
+import Advertising from "../components/Advertising";
 
 const Inicio = () => {
   return (
     <>
     <div>
       <Navbar />
+      <div className="title-inicio">
+      <Title title="Galería TetArte" />
+      </div>
       <Slice />
       <div className="content-inicio">
         <section className="section1">
@@ -19,9 +23,11 @@ const Inicio = () => {
         <section className="sectionVideos">
           <VideoSlice />
         </section>
+        
       </div>
+      <Advertising />
     </div>
-    <Modals />
+    
     </>
   );
 };

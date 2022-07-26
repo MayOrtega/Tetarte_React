@@ -8,7 +8,7 @@ const Paises = () => {
     <div className="content-paises">
       <Navbar />
       <div className="title-paises">
-        <Title title="Países ExpoTetArte 2020" />
+        <Title title="Red TetArte 2022" />
       </div>
       <div className="div-mapView">
         <MapView />
