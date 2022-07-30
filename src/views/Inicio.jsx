@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Slice from "../components/Slice";
 import Blog from "../components/Blog";
-import Anuncio1 from "../components/Advertising";
 import VideoSlice from "../components/VideoSlice";
 import Title from "../components/Title";
 import Advertising from "../components/Advertising";

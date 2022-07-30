@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <div className="line"></div>
       <nav className="navbar navbar-dark bg-dark">
-        <hr />
+        <div className="hr"></div>
         <Link to="/" className="links-nav"></Link>
         <Link to="/" className="links-nav">
           Inicio
@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link to="../views/Contacto.jsx" className="links-nav">
           Contacto
         </Link>
-        <hr />
+        <div className="hr"></div>
         <div></div>
       </nav>
       <img src={Logo} className="logo" alt="logo"></img>
