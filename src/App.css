@@ -455,11 +455,26 @@ width: 100%;
  flex-direction: row;
  text-align: center;
  margin: 5% 0 0 0;
- 
- 
 }
 
 .pictures{
-  width:50%;
+  width:40%;
+  border-radius: 10px;
   
+}
+
+.section-pic{
+  width: 50%;
+  color: #C3BF4E;
+  font-family: 'Kite One';
+}
+
+.title-pic{
+  text-align: center;
+
+}
+
+/* ModalPic */
+.content-modal{
+  width: 25%;
 }

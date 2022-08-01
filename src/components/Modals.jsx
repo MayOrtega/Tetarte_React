@@ -5,8 +5,8 @@ import useModal from './useModal'
 
 
 const Modals = () => {
-  const [isOpenModal1, openModal1, closeModal1] = useModal(false)
-  const [isOpenModal2, openModal2, closeModal2] = useModal(false)
+  const [isOpenModalPic1, openModalPic1, closeModalPic1] = useModal(false)
+  const [isOpenModalPic2, openModalPic2, closeModalPic2] = useModal(false)
   return (
     <div>
         <button onClick={openModal1}>Modal 1</button>
