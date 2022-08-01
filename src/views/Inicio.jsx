@@ -5,6 +5,7 @@ import Blog from "../components/Blog";
 import VideoSlice from "../components/VideoSlice";
 import Title from "../components/Title";
 import Advertising from "../components/Advertising";
+import Pictures from "../components/Pictures";
 
 const Inicio = () => {
   return (
@@ -22,8 +23,8 @@ const Inicio = () => {
         <section className="sectionVideos">
           <VideoSlice />
         </section>
-        
       </div>
+      <Pictures />
       <Advertising />
     </div>
     

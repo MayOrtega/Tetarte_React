@@ -453,3 +453,18 @@ width: 100%;
 .modal.is-open {
   display: flex;
 }
+
+/* Pictures */
+.content-pictures{
+  display: flex;
+ flex-direction: row;
+ text-align: center;
+ margin: 5% 0 0 0;
+ 
+ 
+}
+
+.pictures{
+  width:50%;
+  
+}
