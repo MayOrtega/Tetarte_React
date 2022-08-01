@@ -136,22 +136,17 @@ img.d-block{
   width: 30%;
 }
 
-.section-video-slice{
-  width: 40%;
-  margin: 1% 0 0 0%;
-  padding: 0 0 0 8%;
-  
-}
 
 .content-video-slice{
   margin: 15% 0 0 0;
+  text-align: center;
 }
 
 .title-videos{
   font-family: 'Kite One';
   color:#fff;
   font-size: 2.5vw;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 -12%;
   width: 100%;
   
 
