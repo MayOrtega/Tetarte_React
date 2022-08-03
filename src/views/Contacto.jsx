@@ -13,16 +13,22 @@ const Contacto = () => {
   return (
     <div className="content-contacto">
       <Navbar />
-      <div className="title-contacto">
-        Contáctanos
-      </div>
+      <div className="title-contacto">Contáctanos</div>
       <div className="card-deck">
         <div className="card">
-          <a href="https://www.instagram.com/tetarte_el_arte_de_amamantar" target="_blank" rel='noreferrer'>
+          <a
+            href="https://www.instagram.com/tetarte_el_arte_de_amamantar"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img className="card-img-top" src={ig} alt="Card-image2"></img>
           </a>
           <div className="card-body">
-            <a href="https://www.instagram.com/tetarte_el_arte_de_amamantar" target="_blank" rel='noreferrer'>
+            <a
+              href="https://www.instagram.com/tetarte_el_arte_de_amamantar"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={click} className="click" alt="click"></img>
             </a>
             <h5 className="card-title">Instagram TetArte</h5>
@@ -38,7 +44,7 @@ const Contacto = () => {
                   src={copy}
                   onClick={() => setCopied(true)}
                   style={{ width: "14%" }}
-                  alt=''
+                  alt=""
                 ></img>
                 <h6 className="text-mail">onggrial@gmail.com</h6>
                 <p style={{ fontSize: "1%" }}>
@@ -49,11 +55,19 @@ const Contacto = () => {
           </div>
         </div>
         <div className="card">
-          <a href="https://www.facebook.com/proyectotetarte" target="_blank"rel='noreferrer'>
+          <a
+            href="https://www.facebook.com/proyectotetarte"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img className="card-img-top" src={facebook} alt="CardImage"></img>
           </a>
           <div className="card-body">
-            <a href="https://www.facebook.com/proyectotetarte" target="_blank" rel='noreferrer'>
+            <a
+              href="https://www.facebook.com/proyectotetarte"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={click} className="click" alt="click"></img>
             </a>
             <h5 className="card-title">Facebook Tetarte</h5>

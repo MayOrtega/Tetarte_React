@@ -25,10 +25,10 @@ const Blog = () => {
         </h3>
       </div>
       <div className="div-fotos">
-      <img src={mama} alt="" className="mama"></img>
-      <img src={mujer} alt="" className="mujer"></img>
-      <img src={mujeres} alt="" className="mujeres"></img>
-      <img src={crianza} alt="" className="crianza"></img>
+        <img src={mama} alt="" className="mama"></img>
+        <img src={mujer} alt="" className="mujer"></img>
+        <img src={mujeres} alt="" className="mujeres"></img>
+        <img src={crianza} alt="" className="crianza"></img>
       </div>
     </div>
   );

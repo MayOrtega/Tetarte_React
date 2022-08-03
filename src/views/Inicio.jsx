@@ -10,24 +10,23 @@ import Pictures from "../components/Pictures";
 const Inicio = () => {
   return (
     <>
-    <div>
-      <Navbar />
-      <div className="title-inicio">
-      <Title title="Galería TetArte" />
+      <div>
+        <Navbar />
+        <div className="title-inicio">
+          <Title title="Galería TetArte" />
+        </div>
+        <Slice />
+        <div className="content-inicio">
+          <section className="section1">
+            <Blog />
+          </section>
+          <section className="sectionVideos">
+            <VideoSlice />
+          </section>
+        </div>
+        <Pictures />
+        <Advertising />
       </div>
-      <Slice />
-      <div className="content-inicio">
-        <section className="section1">
-          <Blog />
-        </section>
-        <section className="sectionVideos">
-          <VideoSlice />
-        </section>
-      </div>
-      <Pictures />
-      <Advertising />
-    </div>
-    
     </>
   );
 };

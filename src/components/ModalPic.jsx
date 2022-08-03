@@ -1,15 +1,17 @@
-import React from 'react'
+import React from "react";
 
-  const ModalPic = ({children, isOpen, closeModal}) => {
-  const handleModalContainerClick = e => e.stopPropagation();
+const ModalPic = ({ children, isOpen, closeModal }) => {
+  const handleModalContainerClick = (e) => e.stopPropagation();
   return (
     <article className={`modal ${isOpen && "is-open"}`} onClick={closeModal}>
-        <div className='modal-container' onClick={handleModalContainerClick}>
-            <button className='modal-close' onClick={closeModal}>X</button>
-            {children}
-        </div>
+      <div className="modal-container" onClick={handleModalContainerClick}>
+        <button className="modal-close" onClick={closeModal}>
+          X
+        </button>
+        {children}
+      </div>
     </article>
-  )
-}
-   
-export default ModalPic
+  );
+};
+
+export default ModalPic;

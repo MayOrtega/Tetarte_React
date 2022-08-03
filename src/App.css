@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&display=swap");
 
-
-body{
+body {
   background-color: #000002;
-  background-image: url('./img/banner.jpg');
+  background-image: url("./img/banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: -10%;
@@ -13,9 +12,9 @@ body{
 
 /* Inicio */
 
-.title-inicio{
+.title-inicio {
   width: 50%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   font-size: 2.5vw;
   color: #fff;
   background-color: #0000022a;
@@ -27,246 +26,241 @@ body{
   padding: 1% 3.5% 1% 3.5%;
 }
 
-.line{
+.line {
   height: 3px;
-  
 }
 
-nav.navbar.navbar-dark{
+nav.navbar.navbar-dark {
   background-color: #000002;
   height: 60px;
 }
 
-nav{
-  font-family: 'Kite One';
+nav {
+  font-family: "Kite One";
   width: 98%;
   margin: 1% 0 0 1%;
-  
 }
 
-  .hr {
-    height: 4px;
-    width: 12%;
-    background-color: #C3BF4E;
-    padding: 0.2%;
-    z-index: 998;
-    margin: 0 0 0 3%;
-  }
+.hr {
+  height: 4px;
+  width: 12%;
+  background-color: #c3bf4e;
+  padding: 0.2%;
+  z-index: 998;
+  margin: 0 0 0 3%;
+}
 
-
-.logo{
+.logo {
   width: 8%;
   margin: -3% 0 0 4%;
   position: absolute;
   z-index: 999;
- 
 }
 
-a{
+a {
   color: #fff;
   text-decoration: none;
 }
 
-a:hover{
-  color: #C3BF4E;
+a:hover {
+  color: #c3bf4e;
 }
 
-a.links-nav{
+a.links-nav {
   width: 10%;
 }
 
-
 /* Slide */
 
-.content-slide{
+.content-slide {
   display: flex;
   flex-direction: row;
   margin: 2% 0 0 2%;
   width: 100%;
 }
 
-.div-slice{
+.div-slice {
   width: 30%;
   margin: 2% 7% 0 -2%;
 }
 
-.left-slide{
+.left-slide {
   margin: 5% 0 0 10%;
   width: 30%;
 }
 
-.img-left-slide{
+.img-left-slide {
   width: 30%;
   border-radius: 5px;
   margin: 10% 3% 1% 3%;
   opacity: 0.5;
 }
 
-.rigth-slide{
+.rigth-slide {
   margin: 5% 0 10% 0;
   width: 30%;
   opacity: 0.5;
 }
 
-.img-rigth-slide{
+.img-rigth-slide {
   width: 30%;
   margin: 10% 3% 1% 1%;
   border-radius: 5px;
 }
 
-img.d-block{
+img.d-block {
   padding: 10%;
   width: 500px;
   height: 320px;
 }
 
-
-.content-inicio{
+.content-inicio {
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin:-4% 0 0 5%;
+  margin: -4% 0 0 5%;
 }
 
-.section1{
+.section1 {
   width: 50%;
   margin: 2%;
 }
 
-.section2{
+.section2 {
   text-align: center;
   width: 30%;
 }
 
-
-.content-video-slice{
+.content-video-slice {
   margin: 15% 0 0 0;
   text-align: center;
 }
 
-.title-videos{
-  font-family: 'Kite One';
-  color:#fff;
+.title-videos {
+  font-family: "Kite One";
+  color: #fff;
   font-size: 2.5vw;
   margin: 0 0 0 -12%;
   width: 100%;
-  
-
 }
 
-.sectionVideos{
-  margin: 3% 0 0 7%;
+.sectionVideos {
+    margin: 3% 0 0 7%;
 }
 
 
 /* Blog */
 
-.content-text{
+.content-text {
   display: flex;
   flex-direction: row;
- }
+}
 
-.texto-blog{
+.texto-blog {
   width: 50%;
   margin: 5% 0 0 2%;
   text-align: justify;
 }
 
-.div-fotos{
+.div-fotos {
   display: flex;
   flex-direction: row;
   margin: 2% 0 0 0;
-  
 }
 
-.amamantar , .mama, .mujer, .mujeres, .crianza{                                                                                                                                                    
+.amamantar,
+.mama,
+.mujer,
+.mujeres,
+.crianza {
   padding: 2%;
   margin: 1%;
   -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    border: solid #C3BF4E 1px;
-    opacity: 0.8;
+  filter: grayscale(100%);
+  border: solid #c3bf4e 1px;
+  opacity: 0.8;
 }
 
-.amamantar{
+.amamantar {
   width: 19%;
   height: 20%;
- 
 }
 
-.mama, .mujer, .mujeres, .crianza{
+.mama,
+.mujer,
+.mujeres,
+.crianza {
   width: 12%;
   height: 14%;
 }
 
-.mujeres{
+.mujeres {
   width: 22%;
 }
 
-.div-blog{
+.div-blog {
   width: 100%;
   margin: 2% 0 0 8%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   text-align: center;
   color: #fff;
- }
-
-.title-blog{
-  padding: 3%;
-  font-size: 2.5vw;
-  color: #C3BF4E;
-
 }
 
-h3{
+.title-blog {
+  padding: 3%;
+  font-size: 2.5vw;
+  color: #c3bf4e;
+}
+
+h3 {
   font-size: 1.5vw;
   text-align: left;
   margin: 0 0 2% 6%;
 }
 
-.blogger{
+.blogger {
   width: 9%;
 }
 
 /* Anuncio */
 
-.div-anuncio{
+.div-anuncio {
   background-color: #c3bf4ea7;
   border: #ff594aa7 solid 3px;
   width: 60%;
   height: 5%;
   margin: 5% 0 0 22%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   text-align: center;
   font-weight: bold;
 }
 
-.img-anuncio{
+.img-anuncio {
   width: 10%;
 }
 
-.title-anuncio{
+.title-anuncio {
   padding: 2% 0 0 0;
   font-size: 2vw;
   font-weight: bold;
 }
 
-.p-anuncio{
+.p-anuncio {
   background-color: rgb(240, 110, 95);
   padding: 2%;
 }
 
-.flecha{
+.flecha {
   width: 8%;
 }
 
 /* Contacto */
-.title-contacto{
+.title-contacto {
   margin: 5% 0 0 0;
   color: #fff;
   background-color: #0000022a;
   width: 50%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   margin: 4% 1% 0 0;
   font-size: 2.5rem;
   text-align: center;
@@ -274,58 +268,56 @@ h3{
   padding: 1% 0 1% 0;
 }
 
-.card-img-top{
-   width: 12%;
+.card-img-top {
+  width: 12%;
 }
 
-.card-deck{
+.card-deck {
   display: flex;
   flex-direction: row;
 }
 
-.card{
+.card {
   width: 30%;
   height: 50%;
   padding: 2%;
-  margin:   6% 5% 50% 5%;
+  margin: 6% 5% 50% 5%;
   text-align: center;
   align-items: center;
   background-color: #242424;
-  border: solid #C3BF4E 1px;
+  border: solid #c3bf4e 1px;
   color: #fff;
-  
 }
 
-h5{
+h5 {
   font-size: 2vw;
 }
 
-h6{
+h6 {
   font-size: 1vw;
 }
 
-h5, h6{
-  font-family: 'Kite One';
+h5,
+h6 {
+  font-family: "Kite One";
 }
 
-
-
-.click{
+.click {
   width: 15%;
   margin: 2%;
 }
 
-.text-mail{
+.text-mail {
   margin-top: 7%;
 }
 
 /* Países */
-.title-paises{
+.title-paises {
   margin: 5% 0 0 0;
   color: #fff;
   background-color: #0000022a;
   width: 50%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   margin: 4% 0 2% 0;
   font-weight: bold;
   text-align: center;
@@ -333,47 +325,46 @@ h5, h6{
   padding: 1% 0 1% 0;
 }
 
-
-.leaflet-container{
+.leaflet-container {
   width: 100vw;
   height: 100vh;
 }
 
-.div-mapView{
+.div-mapView {
   width: 90%;
   text-align: center;
   color: white;
-  font-family: 'Kite One';
+  font-family: "Kite One";
 }
 
-.leaflet-container{
-   width: 99%;
-   height: 430px;
-   margin: 2% 0 0 6%;
-   border: solid #C3BF4E 3px;
-   border-radius: 8px;
-   filter: grayscale(70%);
+.leaflet-container {
+  width: 99%;
+  height: 430px;
+  margin: 2% 0 0 6%;
+  border: solid #c3bf4e 3px;
+  border-radius: 8px;
+  filter: grayscale(70%);
 }
 
-.img-popup{
+.img-popup {
   width: 100%;
 }
 
 /* Quienes somos */
 
-.content-quienes-somos{
+.content-quienes-somos {
   width: 98%;
   text-align: center;
   display: flex;
   flex-direction: row;
 }
 
-.title-quienes-somos{
+.title-quienes-somos {
   text-align: center;
   color: white;
   background-color: #0000022a;
   width: 50%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   margin: 4% 0 2% 0;
   font-weight: bold;
   text-align: center;
@@ -381,40 +372,37 @@ h5, h6{
   border-radius: 10px;
 }
 
-
-.section1-quienes-somos{
+.section1-quienes-somos {
   color: white;
   width: 50%;
   border: solid #fff 1px;
   padding: 5%;
   margin: 3% 0 0 5%;
-  font-family: 'Kite One';
+  font-family: "Kite One";
   background-color: #000002;
   text-align: justify;
 }
 
-.section2-quienes-somos{
+.section2-quienes-somos {
   width: 50%;
 }
 
-.foto1-somos{
-width:60%;
-margin: 6% 0 0 10%;
-transform: rotate(5deg);
-border: solid #C3BF4E 2px;
-border-radius: 5px;
+.foto1-somos {
+  width: 60%;
+  margin: 6% 0 0 10%;
+  transform: rotate(5deg);
+  border: solid #c3bf4e 2px;
+  border-radius: 5px;
 }
-
 
 /* Modales */
-.img-modal{
-width: 100%;
+.img-modal {
+  width: 100%;
 }
 
-.title-modal{
-  color: #C3BF4E;
-  font-family: 'Kite One';
-
+.title-modal {
+  color: #c3bf4e;
+  font-family: "Kite One";
 }
 
 .modal {
@@ -438,7 +426,6 @@ width: 100%;
   min-height: 400px;
   max-height: 1200px;
   overflow-y: auto;
-  
 }
 
 .modal-close {
@@ -452,63 +439,57 @@ width: 100%;
 }
 
 /* Pictures */
-.content-pictures{
+.content-pictures {
   display: flex;
- flex-direction: row;
- text-align: center;
- margin: 5% 0 0 0;
-}
-
-.pictures{
-  width:60%;
-  border-radius: 10px;
-  
-}
-
-.section-pic{
-  width: 50%;
-  color: #C3BF4E;
-  font-family: 'Kite One';
-}
-
-.title-pic{
+  flex-direction: row;
   text-align: center;
+  margin: 5% 0 0 0;
+}
 
+.pictures {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.section-pic {
+  width: 50%;
+  color: #c3bf4e;
+  font-family: "Kite One";
+}
+
+.title-pic {
+  text-align: center;
 }
 
 /* image  */
-.content-gallery{
+.content-gallery {
   width: 93vw;
   height: 93vh;
   text-align: center;
 }
 
-.picture{
+.picture {
   width: 40%;
   height: 46%;
   z-index: 100;
   margin: 0 0 2% 7%;
-  
 }
 
-.title-sesiones{
+.title-sesiones {
   width: 30%;
-  color: #C3BF4E;
-  font-family: 'Kite One';
+  color: #c3bf4e;
+  font-family: "Kite One";
   margin: 5% 0 0 10%;
   background-color: #00000251;
   border-radius: 5px;
 }
 
-.pictureSantiago{
+.pictureSantiago {
   width: 30%;
   margin: 2%;
 }
 
-.pictureSantiagoHoriz{
+.pictureSantiagoHoriz {
   width: 45%;
   margin: 2%;
 }
-
-
-
