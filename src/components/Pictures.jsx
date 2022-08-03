@@ -1,40 +1,55 @@
 import album1 from '../img/santiago/grupo1/preview-lista1.jpg';
+import album2 from '../img/Temuco/preview-temuco.jpg'
+import album3 from '../img/San-Antonio/preview-sanAntonio.jpg'
 import album4 from '../img/castro/preview-castro.jpg';
-import useModalPic from './useModalPic';
-import Modal from './Modal';
-import stgo1 from '../img/santiago/grupo1/DSC_8693 copia.jpg';
-import stgo2 from '../img/santiago/grupo1/DSC_8695 copia.jpg';
-import stgo3 from '../img/santiago/grupo1/DSC_8704 copia.jpg';
+import { Link } from "react-router-dom";
+
 
 
 
 const Pictures = () => {
-  const [isOpenModalPic1, openModalPic1, closeModalPic1] = useModalPic(false)
-  const [isOpenModalPic2, openModalPic2, closeModalPic2] = useModalPic(false)
+  
   return (
     <>
     <div className='content-pictures'>
         <section className='section-pic'>
             <h3 className='title-pic'>TetArte Santiago 2022</h3>
+            <Link to="../views/Santiago.jsx" className="links-nav">
             <img src={album1}
              className='pictures'
-             onClick={openModalPic1}></img></section>
+             alt=''>
+             </img>
+             </Link>
+            </section>
         <section className='section-pic'>
             <h3 className='title-pic'>TetArte Castro 2022</h3>
+            <Link to="../views/Castro.jsx" className="links-nav">
+            <img src={album2}
+             className='pictures'
+             alt=''>
+              </img>
+              </Link>
+            </section>
+            <section className='section-pic'>
+            <h3 className='title-pic'>TetArte Temuco 2022</h3>
+            <Link to="../views/Temuco.jsx" className="links-nav">
+            <img src={album3}
+             className='pictures'
+             alt=''>
+              </img>
+              </Link>
+            </section>
+            <section className='section-pic'>
+            <h3 className='title-pic'>TetArte San Antonio 2022</h3>
+            <Link to="../views/SanAntonio.jsx" className="links-nav">
             <img src={album4}
              className='pictures'
-             onClick={openModalPic2}></img></section>
+             alt=''>
+              </img>
+              </Link>
+            </section>
     </div>
-       <Modal isOpen={isOpenModalPic1} closeModal={closeModalPic1}>
-        <div className='content-modal'>
-        <img src={stgo1}></img>
-        <img src={stgo2}></img>
-        <img src={stgo3}></img>
-         </div>
-        </Modal>
-        <Modal isOpen={isOpenModalPic2} closeModal={closeModalPic2}>
-        
-        </Modal>
+      
     </>
   )
 }

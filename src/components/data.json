@@ -1,0 +1,23 @@
+{ 
+  "temuco":[
+    
+    {
+      "id": 1,
+      "image": "../views/sesiones/photo_5134214707937389232_y.jpg"
+      
+    },
+    {
+        "id": 2,
+        "image": "../views/sesiones/photo_5134214707937389229_y.jpg"
+      },
+      {
+        "id": 3,
+        "image": "../views/sesiones/photo_5134214707937389231_y.jpg"
+      },
+      {
+        "id": 4,
+        "image": "../views/sesiones/photo_5134214707937389232_y.jpg"
+      }
+  ]
+}
+
