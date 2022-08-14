@@ -229,7 +229,7 @@ h3 {
   border: #ff594aa7 solid 3px;
   width: 60%;
   height: 5%;
-  margin: 5% 0 0 22%;
+  margin: 15% 0 0 22%;
   font-family: "Kite One";
   text-align: center;
   font-weight: bold;
@@ -440,19 +440,24 @@ h6 {
 
 /* Pictures */
 .content-pictures {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 20%;
   flex-direction: row;
   text-align: center;
-  margin: 5% 0 0 0;
+  margin: 10% 0 0 5%;
+  
 }
 
 .pictures {
-  width: 60%;
+  width: 40%;
   border-radius: 10px;
 }
 
 .section-pic {
-  width: 50%;
+  width: 80%;
   color: #c3bf4e;
   font-family: "Kite One";
 }

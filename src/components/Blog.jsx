@@ -18,7 +18,7 @@ const Blog = () => {
           maternidad, crianza y mucho más... entra a nuestro blog aquí
           <img src={flecha} className="flecha" alt=""></img>{" "}
           <span>
-            <a href="http://expotetarte.blogspot.com" target="_blank">
+            <a href="http://expotetarte.blogspot.com" target="_blank" rel="noreferrer">
               <img src={blogger} className="blogger" alt=""></img>
             </a>
           </span>

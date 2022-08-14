@@ -25,7 +25,6 @@ function Slice() {
   const [isOpenModal4, openModal4, closeModal4] = useModal(false);
   const [isOpenModal5, openModal5, closeModal5] = useModal(false);
   const [isOpenModal6, openModal6, closeModal6] = useModal(false);
-  const [isOpenModal7, openModal7, closeModal7] = useModal(false);
   const [isOpenModal8, openModal8, closeModal8] = useModal(false);
   const [isOpenModal9, openModal9, closeModal9] = useModal(false);
   const [isOpenModal10, openModal10, closeModal10] = useModal(false);
