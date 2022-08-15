@@ -76,8 +76,9 @@ a.links-nav {
 .content-slide {
   display: flex;
   flex-direction: row;
-  margin: 2% 0 0 2%;
+  margin: 2% 0 0 8%;
   width: 100%;
+  justify-content: center;
 }
 
 .div-slice {
@@ -85,34 +86,12 @@ a.links-nav {
   margin: 2% 7% 0 -2%;
 }
 
-.left-slide {
-  margin: 5% 0 0 10%;
-  width: 30%;
-}
-
-.img-left-slide {
-  width: 30%;
-  border-radius: 5px;
-  margin: 10% 3% 1% 3%;
-  opacity: 0.5;
-}
-
-.rigth-slide {
-  margin: 5% 0 10% 0;
-  width: 30%;
-  opacity: 0.5;
-}
-
-.img-rigth-slide {
-  width: 30%;
-  margin: 10% 3% 1% 1%;
-  border-radius: 5px;
-}
 
 img.d-block {
   padding: 10%;
   width: 500px;
-  height: 320px;
+  height: 390px;
+  cursor: pointer;
 }
 
 .content-inicio {
@@ -455,8 +434,8 @@ h6 {
 }
 
 .pictures {
-  width: 200px;
-  height: 120px;
+  width: 180px;
+  height: 100px;
   border-radius: 10px;
 }
 

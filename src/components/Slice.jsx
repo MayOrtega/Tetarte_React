@@ -39,14 +39,14 @@ function Slice() {
   return (
     <>
       <div className="content-slide">
-        <section className="left-slide">
+        {/* <section className="left-slide">
           <img
             src={Bucaramanga}
             className="img-left-slide"
             alt="img-left"
           ></img>
           <img src={Alcoy} className="img-left-slide" alt="img-left2"></img>
-        </section>
+        </section> */}
         <section className="div-slice">
           <Carousel>
             <Carousel.Item>
@@ -195,14 +195,14 @@ function Slice() {
             </Carousel.Item>
           </Carousel>
         </section>
-        <section className="rigth-slide">
+        {/* <section className="rigth-slide">
           <img src={Cali} className="img-rigth-slide" alt="img-rigth"></img>
           <img
             src={SanAntonio}
             className="img-rigth-slide"
             alt="img-rigth"
           ></img>
-        </section>
+        </section> */}
         <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
           <h1 className="title-modal"> Castro - Chile</h1>
           <img src={Castro} className="img-modal" alt="castro"></img>
