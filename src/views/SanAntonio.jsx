@@ -18,7 +18,7 @@ const SanAntonio = () => {
     <>
       <Navbar />
       <div className="content-gallery">
-        <div className="title-sesiones">
+        <div className="title-sesiones-sa">
           <Title title="TetArte San Antonio" />
         </div>
         <img src={img1} className="picture" alt=""></img>

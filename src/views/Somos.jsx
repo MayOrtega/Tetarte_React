@@ -14,10 +14,11 @@ const Somos = () => {
       <div className="content-quienes-somos">
         <section className="section1-quienes-somos">
           <p>
-            Tetarte es un proyecto fotográfico pro lactancia materna cuyos
+            Tetarte es un proyecto fotográfico <strong><em>pro lactancia</em></strong> cuyos
             objetivos son promover la lactancia materna, desmitificarla y
-            visualizarla como acto humano y natural. Proyecto de ONG Grial,
-            marca registrada y protegido por ley de derechos de autor.
+            visualizarla como acto humano y natural. 
+            </p> 
+            <p>Proyecto de ONG Grial, marca registrada y protegido por ley de derechos de autor.
           </p>
         </section>
         <section className="section2-quienes-somos">

@@ -11,6 +11,11 @@ import Temuco from "./views/Temuco";
 import SanAntonio from "./views/SanAntonio";
 import Santiago from "./views/Santiago";
 import Castro from "./views/Castro";
+import Curico from "./views/Curico"
+import Rancagua from "./views/Rancagua";
+import Pichilemu from "./views/Pichilemu";
+import Valparaiso from "./views/Valparaiso";
+import Bucaramanga from "./views/Bucaramanga";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +29,11 @@ root.render(
       <Route path="/views/SanAntonio.jsx" element={<SanAntonio />} />
       <Route path="/views/Santiago.jsx" element={<Santiago />} />
       <Route path="/views/Castro.jsx" element={<Castro />} />
+      <Route path="/views/Curico.jsx" element={<Curico />} />
+      <Route path="/views/Rancagua.jsx" element={<Rancagua />} />
+      <Route path="/views/Pichilemu.jsx" element={<Pichilemu />} />
+      <Route path="/views/Valparaiso.jsx" element={<Valparaiso />} />
+      <Route path="/views/Bucaramanga.jsx" element={<Bucaramanga />} />
     </Routes>
   </BrowserRouter>
 );
