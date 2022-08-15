@@ -11,8 +11,8 @@ const Navbar = () => {
         <Link to="/" className="links-nav">
           Inicio
         </Link>
-        <Link to="../views/Somos.jsx" className="links-nav">
-          Quiénes Somos
+        <Link to="../views/Proyecto.jsx" className="links-nav">
+          Proyecto
         </Link>
         <Link to="../views/Paises.jsx" className="links-nav">
           Países

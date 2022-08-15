@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 import foto1 from "../img/paloma.jpg";
 
-const Somos = () => {
+const Proyecto = () => {
   return (
     <div className="quienes-somos">
       <Navbar />
@@ -29,4 +29,4 @@ const Somos = () => {
   );
 };
 
-export default Somos;
+export default Proyecto;

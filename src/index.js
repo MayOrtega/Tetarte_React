@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Somos from "./views/Somos";
+import Proyecto from "./views/Proyecto";
 import Paises from "./views/Paises";
 import Contacto from "./views/Contacto";
 import Temuco from "./views/Temuco";
@@ -22,7 +22,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/views/Somos.jsx" element={<Somos />} />
+      <Route path="/views/Proyecto.jsx" element={<Proyecto />} />
       <Route path="/views/Paises.jsx" element={<Paises />} />
       <Route path="/views/Contacto.jsx" element={<Contacto />} />
       <Route path="/views/Temuco.jsx" element={<Temuco />} />
