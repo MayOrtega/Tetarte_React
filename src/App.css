@@ -623,12 +623,13 @@ h6 {
 
   .section1-quienes-somos{
     width: 80%;
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin: 5% 0 0 11%;
   }
 
   .section2-quienes-somos{
-   margin: 5% 0 0 20%;
+   margin: 5% 0 0 7%;
+   width: 80%;
   }
 
   .title-quienes-somos{
