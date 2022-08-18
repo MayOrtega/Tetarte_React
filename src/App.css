@@ -615,5 +615,48 @@ h6 {
   #pics-bucaramanga{
     font-size: 2.5vw;
   }
+
+  .content-quienes-somos{
+    flex-direction: column;
+    margin: 8% 0 0 0;
+  }
+
+  .section1-quienes-somos{
+    width: 80%;
+    font-size: 3vw;
+    margin: 5% 0 0 11%;
+  }
+
+  .section2-quienes-somos{
+   margin: 5% 0 0 20%;
+  }
+
+  .title-quienes-somos{
+    margin: 15% 0 0 0;
+  }
+
+  .title-paises{
+    margin: 12% 0 0 0;
+  }
+
+  .div-mapView{
+    margin: 5% 0 0 0;
+  }
+
+  .title-contacto{
+    margin: 15% 0 0 0;
+    font-size: 6vw;
+  }
+
+  .card-deck{
+    flex-direction: column;
+    height: 30%;
+
+  }
+
+  .card{
+    width: 70%;
+    margin: 10% 0 0 15%;
+  }
 }
 
