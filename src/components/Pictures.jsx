@@ -1,6 +1,6 @@
 import album1 from "../img/santiago/grupo1/preview-lista1.jpg";
 import album2 from "../img/castro/preview-castro.jpg";
-import album3 from "../img/Temuco/preview-Temuco.jpg";
+import album3 from "../img/Temuco/previewTemuco.jpg";
 import album4 from "../img/San-Antonio/preview-sanAntonio.jpg"
 import album5 from "../img/Curico/preview-curico.jpg"
 import album6 from "../img/Pichilemu/preview-pichilemu.jpg";
