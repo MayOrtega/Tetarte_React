@@ -61,6 +61,7 @@ nav {
 a {
   color: #fff;
   text-decoration: none;
+  margin: 0 3% 0 0;
 }
 
 a:hover {
@@ -69,6 +70,18 @@ a:hover {
 
 a.links-nav {
   width: 10%;
+}
+
+#proyecto-link {
+  margin-right: 7%;
+}
+
+#contacto-link{
+  margin-right: 4%;
+}
+
+#inicio-link{
+  margin-left: -6%;
 }
 
 /* Slide */
@@ -180,7 +193,7 @@ img.d-block {
 
 .div-blog {
   width: 100%;
-  margin: 2% 0 0 8%;
+  margin: 0 0 0 8%;
   font-family: "Kite One";
   text-align: center;
   color: #fff;
@@ -209,7 +222,7 @@ h3 {
   border: #ff594aa7 solid 3px;
   width: 60%;
   height: 5%;
-  margin: 15% 0 0 22%;
+  margin: 20% 0 0 22%;
   font-family: "Kite One";
   text-align: center;
   font-weight: bold;
@@ -455,6 +468,8 @@ h6 {
   text-align: center;
 }
 
+
+
 /* image  */
 .content-gallery {
   width: 93vw;
@@ -519,7 +534,8 @@ h6 {
 
   .content-video-slice{
     width: 60%;
-    margin: 10% 0 0 22%;
+    margin: 15% 0 0 22%;
+    
   }
 
   video{
@@ -557,8 +573,9 @@ h6 {
   }
 
   .content-pictures{
-    grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  margin: 0 5% 0 5%;
   }
 
   .pictures{
@@ -572,8 +589,9 @@ h6 {
   }
 
   .title-videos{
-    margin: 6% 50% 0 -10%;
+    margin: 1% 0 0 -75%;
     position: relative;
+
     
     
   }
@@ -592,6 +610,10 @@ h6 {
 
     .div-anuncio{
     margin: 25% 0 0 18%;
+  }
+
+  #pics-bucaramanga{
+    font-size: 2.5vw;
   }
 }
 

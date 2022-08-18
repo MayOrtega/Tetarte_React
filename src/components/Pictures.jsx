@@ -67,7 +67,7 @@ const Pictures = () => {
           </Link>
         </section>
         <section className="section-pic">
-          <h3 className="title-pic">Bucaramanga - Colombia</h3>
+          <h3 className="title-pic" id="pics-bucaramanga">Bucaramanga - Colombia</h3>
           <Link to="../views/Bucaramanga.jsx" className="links-nav">
             <img src={album9} className="pictures" alt=""></img>
           </Link>
