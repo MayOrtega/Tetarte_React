@@ -27,14 +27,14 @@ const Bucaramanga = () => {
       <img src={img2} className="picturesHoriz" alt=""></img>
       <img src={img3} className="picture" alt=""></img>
       <img src={img4} className="picture" alt=""></img>
-      <img src={img5} className="picture" alt=""></img>
       <img src={img6} className="picturesHoriz" alt=""></img>
       <img src={img7} className="picturesHoriz" alt=""></img>
-      <img src={img9} className="picturesHoriz" alt=""></img>
       <img src={img8} className="picture" alt=""></img>
       <img src={img10} className="picture" alt=""></img>
+      <img src={img9} className="picturesHoriz" alt=""></img>
       <img src={img11} className="picturesHoriz" alt=""></img>
       <img src={img12} className="picture" alt=""></img>
+      <img src={img5} className="picture" alt=""></img>
     </div>
   </>
   )

@@ -6,6 +6,7 @@ import VideoSlice from "../components/VideoSlice";
 import Title from "../components/Title";
 import Advertising from "../components/Advertising";
 import Pictures from "../components/Pictures";
+import Footer from "../components/Footer";
 
 const Inicio = () => {
   return (
@@ -26,6 +27,7 @@ const Inicio = () => {
         </div>
         <Pictures />
         <Advertising />
+        <Footer />
       </div>
     </>
   );

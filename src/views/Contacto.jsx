@@ -7,6 +7,7 @@ import click from "../img/click.png";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useState } from "react";
 import copy from "../img/copy.png";
+import Footer from "../components/Footer";
 
 const Contacto = () => {
   const [copied, setCopied] = useState(false);
@@ -72,9 +73,12 @@ const Contacto = () => {
             </a>
             <h5 className="card-title">Facebook Tetarte</h5>
           </div>
+         
         </div>
+        
       </div>
-    </div>
+      <Footer />
+        </div>
   );
 };
 

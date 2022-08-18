@@ -22,7 +22,6 @@ const Curico = () => {
         <div className="title-sesiones">
           <Title title="TetArte Curicó" />
         </div>
-        <img src={img1} className="picturesHoriz" alt=""></img>
         <img src={img2} className="picture" alt=""></img>
         <img src={img3} className="picture" alt=""></img>
         <img src={img4} className="picturesHoriz" alt=""></img>
@@ -32,8 +31,10 @@ const Curico = () => {
         <img src={img8} className="picturesHoriz" alt=""></img>
         <img src={img9} className="picturesHoriz" alt=""></img>
         <img src={img10} className="picture" alt=""></img>
+        <img src={img3} className="picture" alt=""></img>
         <img src={img11} className="picturesHoriz" alt=""></img>
         <img src={img12} className="picturesHoriz" alt=""></img>
+        <img src={img1} className="picturesHoriz" alt=""></img>
       </div>
     </>
   )

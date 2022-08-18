@@ -1,10 +1,13 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 import foto1 from "../img/paloma.jpg";
 
+
 const Proyecto = () => {
   return (
+    <>
     <div className="quienes-somos">
       <Navbar />
 
@@ -25,7 +28,9 @@ const Proyecto = () => {
           <img src={foto1} className="foto1-somos" alt="fundadora"></img>
         </section>
       </div>
-    </div>
+      </div>
+      <Footer />
+      </>
   );
 };
 
