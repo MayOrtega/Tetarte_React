@@ -713,4 +713,12 @@ h6 {
     height: 25rem;
     margin: 4%;
   }
+
+  .title-footer{
+    font-size: 3.5vw;
+  }
+
+  .footer{
+    width: 63%;
+  }
 }
