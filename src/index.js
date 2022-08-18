@@ -11,7 +11,7 @@ import Temuco from "./views/Temuco";
 import SanAntonio from "./views/SanAntonio";
 import Santiago from "./views/Santiago";
 import Castro from "./views/Castro";
-import Curico from "./views/Curico"
+import Curico from "./views/Curico";
 import Rancagua from "./views/Rancagua";
 import Pichilemu from "./views/Pichilemu";
 import Valparaiso from "./views/Valparaiso";

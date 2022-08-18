@@ -6,7 +6,6 @@ import mama from "../img/mama-hija.jpg";
 import mujer from "../img/Mujer.jpg";
 import blogger from "../img/blogger.png";
 
-
 const Blog = () => {
   return (
     <div className="div-blog">
@@ -16,8 +15,12 @@ const Blog = () => {
         <h3 className="texto-blog">
           Si te interesa leer sobre temas contingentes de lactancia, mujer,
           maternidad, crianza y mucho más... entra a nuestro blog aquí ➯
-            <span>
-            <a href="http://expotetarte.blogspot.com" target="_blank" rel="noreferrer">
+          <span>
+            <a
+              href="http://expotetarte.blogspot.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={blogger} className="blogger" alt=""></img>
             </a>
           </span>

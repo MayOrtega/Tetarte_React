@@ -1,12 +1,12 @@
-import './App.css';
-import Inicio from './views/Inicio';
+import "./App.css";
+import Inicio from "./views/Inicio";
 
 const App = () => {
-  return(
+  return (
     <>
-    <Inicio />
+      <Inicio />
     </>
-  )
-}
+  );
+};
 
 export default App;

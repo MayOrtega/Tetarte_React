@@ -1,23 +1,23 @@
-import React from 'react'
-import img1 from '../img/Rancagua/Rancagua1.jpg'
-import img2 from '../img/Rancagua/Rancagua2.jpg'
-import img3 from '../img/Rancagua/Rancagua3.jpg'
-import img4 from '../img/Rancagua/Rancagua4.jpg'
-import img5 from '../img/Rancagua/Rancagua5.jpg'
-import img6 from '../img/Rancagua/Rancagua6.jpg'
-import img7 from '../img/Rancagua/Rancagua7.jpg'
-import img8 from '../img/Rancagua/Rancagua8.jpg'
-import img9 from '../img/Rancagua/Rancagua9.jpg'
-import img10 from '../img/Rancagua/Rancagua10.jpg'
-import img11 from '../img/Rancagua/Rancagua11.jpg'
-import img12 from '../img/Rancagua/Rancagua12.jpg'
-import img13 from '../img/Rancagua/Rancagua13.jpg'
-import img14 from '../img/Rancagua/Rancagua14.jpg'
-import img15 from '../img/Rancagua/Rancagua15.jpg'
-import img16 from '../img/Rancagua/Rancagua16.jpg'
-import img17 from '../img/Rancagua/Rancagua17.jpg'
-import Title from '../components/Title'
-import Navbar from '../components/Navbar'
+import React from "react";
+import img1 from "../img/Rancagua/Rancagua1.jpg";
+import img2 from "../img/Rancagua/Rancagua2.jpg";
+import img3 from "../img/Rancagua/Rancagua3.jpg";
+import img4 from "../img/Rancagua/Rancagua4.jpg";
+import img5 from "../img/Rancagua/Rancagua5.jpg";
+import img6 from "../img/Rancagua/Rancagua6.jpg";
+import img7 from "../img/Rancagua/Rancagua7.jpg";
+import img8 from "../img/Rancagua/Rancagua8.jpg";
+import img9 from "../img/Rancagua/Rancagua9.jpg";
+import img10 from "../img/Rancagua/Rancagua10.jpg";
+import img11 from "../img/Rancagua/Rancagua11.jpg";
+import img12 from "../img/Rancagua/Rancagua12.jpg";
+import img13 from "../img/Rancagua/Rancagua13.jpg";
+import img14 from "../img/Rancagua/Rancagua14.jpg";
+import img15 from "../img/Rancagua/Rancagua15.jpg";
+import img16 from "../img/Rancagua/Rancagua16.jpg";
+import img17 from "../img/Rancagua/Rancagua17.jpg";
+import Title from "../components/Title";
+import Navbar from "../components/Navbar";
 
 const Rancagua = () => {
   return (
@@ -46,7 +46,7 @@ const Rancagua = () => {
         <img src={img17} className="picturesVertical" alt=""></img>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Rancagua
+export default Rancagua;

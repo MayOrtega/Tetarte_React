@@ -54,103 +54,103 @@ const MapView = () => {
       <Marker position={santiago} icon={markerIcon}>
         <Popup>
           <p>Santiago de Chile</p>
-          <img src={Santiago} className="img-popup" alt=''></img>
+          <img src={Santiago} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={valparaiso} icon={markerIcon}>
         <Popup>
           <p>Valparaíso - Chile</p>
-          <img src={Valparaiso} className="img-popup" alt=''></img>
+          <img src={Valparaiso} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={sanAntonio} icon={markerIcon}>
         <Popup>
           <p>San Antonio - Chile</p>
-          <img src={SanAntonio} className="img-popup" alt=''></img>
+          <img src={SanAntonio} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={quintero} icon={markerIcon}>
         <Popup>
           <p>Quintero - Chile</p>
-          <img src={Quintero} className="img-popup" alt=''></img>
+          <img src={Quintero} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={chillan} icon={markerIcon}>
         <Popup>
           <p>Chillán - Chile</p>
-          <img src={Chillan} className="img-popup" alt=''></img>
+          <img src={Chillan} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={castro} icon={markerIcon}>
         <Popup>
           <p>Castro - Chile</p>
-          <img src={Castro} className="img-popup" alt=''></img>
+          <img src={Castro} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={rancagua} icon={markerIcon}>
         <Popup>
           <p>Rancagua - Chile</p>
-          <img src={Rancagua} className="img-popup" alt=''></img>
+          <img src={Rancagua} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={temuco} icon={markerIcon}>
         <Popup>
           <p>Temuco - Chile</p>
-          <img src={Temuco} className="img-popup" alt=''></img>
+          <img src={Temuco} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={laLigua} icon={markerIcon}>
         <Popup>
           <p>La Ligua - Chile</p>
-          <img src={LaLigua} className="img-popup" alt=''></img>
+          <img src={LaLigua} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={pichilemu} icon={markerIcon}>
         <Popup>
           <p>Pichilemu - Chile</p>
-          <img src={Pichilemu} className="img-popup" alt=''></img>
+          <img src={Pichilemu} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={barranquilla} icon={markerIcon}>
         <Popup>
           <p>Barranquilla - Colombia</p>
-          <img src={Barranquilla} className="img-popup" alt=''></img>
+          <img src={Barranquilla} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={bucaramanga} icon={markerIcon}>
         <Popup>
           <p>Bucaramanga - Colombia</p>
-          <img src={Bucaramanga} className="img-popup" alt=''></img>
+          <img src={Bucaramanga} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={alcoy} icon={markerIcon}>
         <Popup>
           <p>Alcoy-España</p>
-          <img src={Alcoy} className="img-popup" alt=''></img>
+          <img src={Alcoy} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={armenia} icon={markerIcon}>
         <Popup>
           <p>Armenia - Colombia</p>
-          <img src={Armenia} className="img-popup" alt=''></img>
+          <img src={Armenia} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={cali} icon={markerIcon}>
         <Popup>
           <p>Cali - Colombia</p>
-          <img src={Cali} className="img-popup" alt=''></img>
+          <img src={Cali} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={popayan} icon={markerIcon}>
         <Popup>
           <p>Popayan - Colombia</p>
-          <img src={Popayan} className="img-popup" alt=''></img>
+          <img src={Popayan} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
       <Marker position={mexico} icon={markerIcon}>
         <Popup>
           <p>Zacatecas - México</p>
-          <img src={Mexico} className="img-popup" alt=''></img>
+          <img src={Mexico} className="img-popup" alt=""></img>
         </Popup>
       </Marker>
     </MapContainer>

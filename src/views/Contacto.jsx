@@ -20,8 +20,7 @@ const Contacto = () => {
           <a
             href="https://www.instagram.com/tetarte_el_arte_de_amamantar"
             target="_blank"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             <img className="card-img-top" src={ig} alt="Card-image2"></img>
           </a>
           <div className="card-body">
@@ -73,12 +72,10 @@ const Contacto = () => {
             </a>
             <h5 className="card-title">Facebook Tetarte</h5>
           </div>
-         
         </div>
-        
       </div>
       <Footer />
-        </div>
+    </div>
   );
 };
 

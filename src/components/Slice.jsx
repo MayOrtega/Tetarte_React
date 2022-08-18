@@ -1,22 +1,22 @@
 import Carousel from "react-bootstrap/Carousel";
-import Santiago1 from '../img/Masivas/SantiagoB.jpg';
-import Valparaiso from '../img/Masivas/ValparaisoB.jpg'
-import SanAntonio from '../img/Masivas/SanAntonioB.jpg';
-import Rancagua from '../img/Masivas/RancaguaB.jpg';
-import Castro from '../img/Masivas/CastroB.jpg';
-import Chillan from '../img/Masivas/ChillanB.jpg';
-import Pichilemu from '../img/Masivas/PichilemuB.jpg';
-import Bucaramanga from '../img/Masivas/BucaramangaB.jpg';
-import Barranquilla from '../img/Masivas/BarranquillaB.jpg';
-import Popayan from '../img/Masivas/PopayanB.jpg';
-import Cali from '../img/Masivas/CaliB.jpg';
-import Alcoy from '../img/Masivas/AlcoyB.jpg';
-import LaLigua from '../img/Masivas/La-LiguaB.jpg';
-import Temuco from '../img/Masivas/TemucoB.jpg';
-import Armenia from '../img/Masivas/ArmeniaB.jpg';
+import Santiago1 from "../img/Masivas/SantiagoB.jpg";
+import Valparaiso from "../img/Masivas/ValparaisoB.jpg";
+import SanAntonio from "../img/Masivas/SanAntonioB.jpg";
+import Rancagua from "../img/Masivas/RancaguaB.jpg";
+import Castro from "../img/Masivas/CastroB.jpg";
+import Chillan from "../img/Masivas/ChillanB.jpg";
+import Pichilemu from "../img/Masivas/PichilemuB.jpg";
+import Bucaramanga from "../img/Masivas/BucaramangaB.jpg";
+import Barranquilla from "../img/Masivas/BarranquillaB.jpg";
+import Popayan from "../img/Masivas/PopayanB.jpg";
+import Cali from "../img/Masivas/CaliB.jpg";
+import Alcoy from "../img/Masivas/AlcoyB.jpg";
+import LaLigua from "../img/Masivas/La-LiguaB.jpg";
+import Temuco from "../img/Masivas/TemucoB.jpg";
+import Armenia from "../img/Masivas/ArmeniaB.jpg";
 import Modal from "./Modal";
 import useModal from "./useModal";
-import Zacatecas from '../img/Masivas/ZacatecasB.jpg'
+import Zacatecas from "../img/Masivas/ZacatecasB.jpg";
 
 function Slice() {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
@@ -187,7 +187,7 @@ function Slice() {
             </Carousel.Item>
           </Carousel>
         </section>
-        
+
         <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
           <h1 className="title-modal"> Castro - Chile</h1>
           <img src={Castro} className="img-modal" alt="castro"></img>

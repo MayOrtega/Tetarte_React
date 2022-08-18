@@ -76,11 +76,11 @@ a.links-nav {
   margin-right: 7%;
 }
 
-#contacto-link{
+#contacto-link {
   margin-right: 4%;
 }
 
-#inicio-link{
+#inicio-link {
   margin-left: -6%;
 }
 
@@ -98,7 +98,6 @@ a.links-nav {
   width: 40%;
   margin: 2% 7% 0 -2%;
 }
-
 
 img.d-block {
   padding: 10%;
@@ -138,9 +137,8 @@ img.d-block {
 }
 
 .sectionVideos {
-    margin: 3% 0 0 7%;
+  margin: 3% 0 0 7%;
 }
-
 
 /* Blog */
 
@@ -332,7 +330,7 @@ h6 {
   font-family: "Kite One";
 }
 
-.div-mapViewMini{
+.div-mapViewMini {
   display: none;
 }
 
@@ -449,7 +447,6 @@ h6 {
   flex-direction: row;
   text-align: center;
   margin: 0 0 0 0;
-  
 }
 
 .pictures {
@@ -459,7 +456,7 @@ h6 {
   border: solid white 2px;
 }
 
-.pictures:hover{
+.pictures:hover {
   opacity: 0.5;
 }
 
@@ -469,12 +466,9 @@ h6 {
   font-size: 1.5rem;
 }
 
-
 .title-pic {
- margin: 0 0 2% 30%;
+  margin: 0 0 2% 30%;
 }
-
-
 
 /* image  */
 .content-gallery {
@@ -492,7 +486,7 @@ h6 {
   border-radius: 5px;
 }
 
-.title-sesiones-principal{
+.title-sesiones-principal {
   text-align: center;
   width: 80%;
   color: #c3bf4e;
@@ -502,7 +496,7 @@ h6 {
   border-radius: 5px;
 }
 
-.title-sesiones-sa{
+.title-sesiones-sa {
   width: 30%;
   color: #c3bf4e;
   font-family: "Kite One";
@@ -518,12 +512,12 @@ h6 {
   margin: 0 0 2% 7%;
 }
 
- .picturesVertical {
+.picturesVertical {
   width: 30%;
   margin: 2%;
 }
 
-.footer{
+.footer {
   background-color: #242424;
   margin: 3% 0 0 0;
   position: fixed;
@@ -533,195 +527,190 @@ h6 {
   display: flex;
   flex-direction: row;
   padding: 1%;
-  
 }
 
-.title-footer{
+.title-footer {
   width: 120%;
   color: darkgray;
   font-size: 1.2vw;
   text-align: center;
   padding: 1% 2% 1% 2%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.title-footer:hover{
+.title-footer:hover {
   color: rgb(251, 144, 176);
   opacity: 0.5;
 }
 
-.loguito{
+.loguito {
   width: 10%;
   height: 10%;
   margin: 0 0 0 10%;
-
 }
 
-
 /* Mediaquerys */
-@media  screen and (max-width: 1300px) {
-  .content-inicio{
+@media screen and (max-width: 1300px) {
+  .content-inicio {
     flex-direction: column;
   }
 
-  .section1{
+  .section1 {
     width: 100%;
   }
 
-  .content-video-slice{
+  .content-video-slice {
     width: 60%;
     margin: 15% 0 0 22%;
-    
   }
 
-  video{
+  video {
     margin: -50% 0 0 0;
   }
 
-  .content-slide{
+  .content-slide {
     width: 150%;
     margin: 5% 30% 0 -15%;
   }
 
-  a{
+  a {
     font-size: 3.5vw;
   }
 
-  .title-prop{
+  .title-prop {
     font-size: 3.5vw;
   }
-  img.d-block{
+  img.d-block {
     margin: 20% 0 0 0;
     width: 120%;
   }
 
-  h1.title-blog{
+  h1.title-blog {
     margin: 0 0 0 -30%;
   }
 
-  .img-modal{
+  .img-modal {
     width: 50%;
     margin: 0 0 120% 15%;
   }
 
-  .title-modal{
+  .title-modal {
     margin: 0 0 0 10%;
   }
 
-  .content-pictures{
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  margin: 0 5% 0 5%;
+  .content-pictures {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 5% 0 5%;
   }
 
-  .pictures{
+  .pictures {
     width: 60%;
     height: 60%;
     margin: 1%;
   }
 
-  .title-videos, .title-blog, .title-sesiones, .title-prop{
+  .title-videos,
+  .title-blog,
+  .title-sesiones,
+  .title-prop {
     font-size: 5vw;
   }
 
-  .title-videos{
+  .title-videos {
     margin: 1% 0 0 -75%;
     position: relative;
   }
 
-  .title-prop{
+  .title-prop {
     margin: 10% 0 0 0;
   }
 
-  .title-pic{
+  .title-pic {
     font-size: 3vw;
   }
 
-  .texto-blog{
+  .texto-blog {
     font-size: 3vw;
   }
 
-    .div-anuncio{
+  .div-anuncio {
     margin: 25% 0 0 18%;
   }
 
-  #pics-bucaramanga{
+  #pics-bucaramanga {
     font-size: 2.5vw;
   }
 
-  .content-quienes-somos{
+  .content-quienes-somos {
     flex-direction: column;
     margin: 2% 0 0 0;
   }
 
-  .section1-quienes-somos{
+  .section1-quienes-somos {
     width: 80%;
     font-size: 3.5vw;
     margin: 2% 0 0 11%;
   }
 
-  .section2-quienes-somos{
-   margin: 4% 0 10% 18%;
-   width: 60%;
+  .section2-quienes-somos {
+    margin: 4% 0 10% 18%;
+    width: 60%;
   }
 
-  .title-quienes-somos{
+  .title-quienes-somos {
     margin: 15% 0 0 0;
   }
 
-  .title-paises{
+  .title-paises {
     margin: 12% 0 0 0;
   }
 
-  .div-mapView{
+  .div-mapView {
     display: none;
   }
 
-  .div-mapViewMini{
+  .div-mapViewMini {
     display: block;
     margin: 5% 0 0 0;
   }
 
-  .title-contacto{
+  .title-contacto {
     margin: 15% 0 0 0;
     font-size: 6vw;
   }
 
-  .card-deck{
+  .card-deck {
     flex-direction: column;
     height: 30%;
-
   }
 
-  .card{
+  .card {
     width: 70%;
     margin: 10% 0 0 15%;
   }
 
-  .logo{
-    width:16%;
+  .logo {
+    width: 16%;
   }
 
-  nav.navbar.navbar-dark{
+  nav.navbar.navbar-dark {
     padding: 3%;
   }
 
-  .leaflet-container{
+  .leaflet-container {
     width: 87%;
   }
 
-  .picture{
+  .picture {
     width: 20rem;
     height: 12rem;
     margin: 4%;
   }
 
-  .picturesVertical{
+  .picturesVertical {
     width: 18rem;
     height: 25rem;
     margin: 4%;
   }
-
-
 }
-

@@ -1,18 +1,18 @@
-import React from 'react'
-import Title from '../components/Title';
-import Navbar from '../components/Navbar';
-import img1 from '../img/Curico/IMG_0046.jpg';
-import img2 from '../img/Curico/IMG_0079 copia.jpg';
-import img3 from '../img/Curico/IMG_0102.jpg';
-import img4 from '../img/Curico/IMG_0109.jpg';
-import img5 from '../img/Curico/IMG_0132.jpg';
-import img6 from '../img/Curico/IMG_0135 copia.jpg';
-import img7 from '../img/Curico/IMG_0136.jpg';
-import img8 from '../img/Curico/IMG_0170.jpg';
-import img9 from '../img/Curico/IMG_0181.jpg';
-import img10 from '../img/Curico/IMG_0247.jpg';
-import img11 from '../img/Curico/IMG_0253 copia.jpg'
-import img12 from '../img/Curico/IMG_0257.jpg'
+import React from "react";
+import Title from "../components/Title";
+import Navbar from "../components/Navbar";
+import img1 from "../img/Curico/IMG_0046.jpg";
+import img2 from "../img/Curico/IMG_0079 copia.jpg";
+import img3 from "../img/Curico/IMG_0102.jpg";
+import img4 from "../img/Curico/IMG_0109.jpg";
+import img5 from "../img/Curico/IMG_0132.jpg";
+import img6 from "../img/Curico/IMG_0135 copia.jpg";
+import img7 from "../img/Curico/IMG_0136.jpg";
+import img8 from "../img/Curico/IMG_0170.jpg";
+import img9 from "../img/Curico/IMG_0181.jpg";
+import img10 from "../img/Curico/IMG_0247.jpg";
+import img11 from "../img/Curico/IMG_0253 copia.jpg";
+import img12 from "../img/Curico/IMG_0257.jpg";
 
 const Curico = () => {
   return (
@@ -37,7 +37,7 @@ const Curico = () => {
         <img src={img1} className="picturesVertical" alt=""></img>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Curico
+export default Curico;
