@@ -1,5 +1,6 @@
 import React from "react";
 import MapView from "../components/MapView.jsx";
+import MapViewMini from "../components/MapViewMini.jsx";
 import Navbar from "../components/Navbar.jsx";
 import Title from "../components/Title.jsx";
 import Footer from "../components/Footer.jsx";
@@ -13,6 +14,9 @@ const Paises = () => {
       </div>
       <div className="div-mapView">
         <MapView />
+      </div>
+      <div className="div-mapViewMini">
+        <MapViewMini />
       </div>
       <Footer />
     </div>

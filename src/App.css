@@ -52,7 +52,7 @@ nav {
 }
 
 .logo {
-  width: 9%;
+  width: 11%;
   margin: 1% 0 0 4%;
   position: absolute;
   z-index: 999;
@@ -331,6 +331,10 @@ h6 {
   font-family: "Kite One";
 }
 
+.div-mapViewMini{
+  display: none;
+}
+
 .leaflet-container {
   width: 99%;
   height: 430px;
@@ -577,7 +581,7 @@ h6 {
   }
 
   a{
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 
   .title-prop{
@@ -620,9 +624,6 @@ h6 {
   .title-videos{
     margin: 1% 0 0 -75%;
     position: relative;
-
-    
-    
   }
 
   .title-prop{
@@ -670,6 +671,11 @@ h6 {
   }
 
   .div-mapView{
+    display: none;
+  }
+
+  .div-mapViewMini{
+    display: block;
     margin: 5% 0 0 0;
   }
 
@@ -688,5 +694,19 @@ h6 {
     width: 70%;
     margin: 10% 0 0 15%;
   }
+
+  .logo{
+    width:16%;
+  }
+
+  nav.navbar.navbar-dark{
+    padding: 3%;
+  }
+
+  .leaflet-container{
+    width: 87%;
+  }
+
+
 }
 
