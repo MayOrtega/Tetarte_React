@@ -13,7 +13,7 @@ const Inicio = () => {
       <div>
         <Navbar />
         <div className="title-inicio">
-          <Title title="Galería TetArte" />
+          <Title title="Masivas TetArte" />
         </div>
         <Slice />
         <div className="content-inicio">

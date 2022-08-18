@@ -32,7 +32,7 @@ body {
 
 nav.navbar.navbar-dark {
   background-color: #000002;
-  height: 70px;
+  padding: 1.5%;
 }
 
 nav {
@@ -89,8 +89,8 @@ a.links-nav {
 
 img.d-block {
   padding: 10%;
-  width: 500px;
-  height: 390px;
+  width: 50%;
+  height: 32%;
   cursor: pointer;
 }
 
@@ -113,7 +113,6 @@ img.d-block {
 
 .content-video-slice {
   width: 140%;
-  margin: 15% 0 0 0;
   text-align: center;
 }
 
@@ -507,3 +506,92 @@ h6 {
   width: 30%;
   margin: 2%;
 }
+
+/* Mediaquerys */
+@media  screen and (max-width: 700px) {
+  .content-inicio{
+    flex-direction: column;
+  }
+
+  .section1{
+    width: 100%;
+  }
+
+  .content-video-slice{
+    width: 60%;
+    margin: 10% 0 0 22%;
+  }
+
+  video{
+    margin: -50% 0 0 0;
+  }
+
+  .content-slide{
+    width: 150%;
+    margin: 5% 30% 0 -15%;
+  }
+
+  a{
+    font-size: 3vw;
+  }
+
+  .title-prop{
+    font-size: 3.5vw;
+  }
+  img.d-block{
+    margin: 20% 0 0 0;
+    width: 120%;
+  }
+
+  h1.title-blog{
+    margin: 0 0 0 -30%;
+  }
+
+  .img-modal{
+    width: 50%;
+    margin: 0 0 120% 15%;
+  }
+
+  .title-modal{
+    margin: 0 0 0 10%;
+  }
+
+  .content-pictures{
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  }
+
+  .pictures{
+    width: 60%;
+    height: 60%;
+    margin: 1%;
+  }
+
+  .title-videos, .title-blog, .title-sesiones, .title-prop{
+    font-size: 5vw;
+  }
+
+  .title-videos{
+    margin: 6% 50% 0 -10%;
+    position: relative;
+    
+    
+  }
+
+  .title-prop{
+    margin: 10% 0 0 0;
+  }
+
+  .title-pic{
+    font-size: 3vw;
+  }
+
+  .texto-blog{
+    font-size: 3vw;
+  }
+
+    .div-anuncio{
+    margin: 25% 0 0 18%;
+  }
+}
+

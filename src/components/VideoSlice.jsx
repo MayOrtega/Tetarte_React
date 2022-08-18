@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 const VideoSlice = () => {
   return (
     <div className="content-video-slice">
-      <h1 className="title-videos">Testimonio</h1>
+      <h1 className="title-videos">Testimonios</h1>
       <section className="section-video">
         <ReactPlayer url={video} width="70%" controls />
       </section>
