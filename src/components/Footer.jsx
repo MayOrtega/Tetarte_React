@@ -1,11 +1,16 @@
 import React from 'react'
-import loguito from '../img/loguito-footer.png'
+import loguito from '../img/loguitoAnimado.gif';
+import 'animate.css';
+
 
 const Footer = () => {
   return (
     <div className='footer'>
-      <h1 className='title-footer'>© 2022 Sitio Web desarrollado por May Ortega</h1>
-      <img src={loguito} alt='' className='loguito'></img>
+      <a href="http://linkedin.com/in/mayorlen" target="_blank" rel="noreferrer">
+      <h1 className='title-footer'>Developed by May Ortega - © 2022</h1>
+      </a>
+      <img src={loguito} alt='' className='loguito animate__rollOut'></img>
+      
     </div>
   )
 }

@@ -5,7 +5,7 @@ import mujeres from "../img/Mujeres.jpg";
 import mama from "../img/mama-hija.jpg";
 import mujer from "../img/Mujer.jpg";
 import blogger from "../img/blogger.png";
-import flecha from "../img/flecha-correcta.png";
+
 
 const Blog = () => {
   return (
@@ -15,9 +15,8 @@ const Blog = () => {
         <img src={amamantar} alt="" className="amamantar"></img>
         <h3 className="texto-blog">
           Si te interesa leer sobre temas contingentes de lactancia, mujer,
-          maternidad, crianza y mucho más... entra a nuestro blog aquí
-          <img src={flecha} className="flecha" alt=""></img>{" "}
-          <span>
+          maternidad, crianza y mucho más... entra a nuestro blog aquí ➯
+            <span>
             <a href="http://expotetarte.blogspot.com" target="_blank" rel="noreferrer">
               <img src={blogger} className="blogger" alt=""></img>
             </a>

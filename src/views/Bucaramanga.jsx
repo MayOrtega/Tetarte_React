@@ -23,16 +23,16 @@ const Bucaramanga = () => {
       <div className="title-sesiones">
         <Title title="TetArte Bucaramanga, Colombia" />
       </div>
-      <img src={img1} className="picturesHoriz" alt=""></img>
-      <img src={img2} className="picturesHoriz" alt=""></img>
+      <img src={img1} className="picturesVertical" alt=""></img>
+      <img src={img2} className="picturesVertical" alt=""></img>
       <img src={img3} className="picture" alt=""></img>
       <img src={img4} className="picture" alt=""></img>
-      <img src={img6} className="picturesHoriz" alt=""></img>
-      <img src={img7} className="picturesHoriz" alt=""></img>
+      <img src={img6} className="picturesVertical" alt=""></img>
+      <img src={img7} className="picturesVertical" alt=""></img>
       <img src={img8} className="picture" alt=""></img>
       <img src={img10} className="picture" alt=""></img>
-      <img src={img9} className="picturesHoriz" alt=""></img>
-      <img src={img11} className="picturesHoriz" alt=""></img>
+      <img src={img9} className="picturesVertical" alt=""></img>
+      <img src={img11} className="picturesVertical" alt=""></img>
       <img src={img12} className="picture" alt=""></img>
       <img src={img5} className="picture" alt=""></img>
     </div>

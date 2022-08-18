@@ -39,35 +39,35 @@ const Santiago = () => {
         <div className="title-sesiones">
           <Title title="TetArte Santiago" />
         </div>
-        <img src={img1} className="pictureSantiago" alt=""></img>
-        <img src={img2} className="pictureSantiago" alt=""></img>
-        <img src={img3} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img4} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img5} className="pictureSantiago" alt=""></img>
-        <img src={img6} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img7} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img8} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img9} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img10} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img11} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img12} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img13} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img14} className="pictureSantiago" alt=""></img>
-        <img src={img15} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img16} className="pictureSantiago" alt=""></img>
-        <img src={img17} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img18} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img19} className="pictureSantiago" alt=""></img>
-        <img src={img20} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img21} className="pictureSantiago" alt=""></img>
-        <img src={img22} className="pictureSantiago" alt=""></img>
-        <img src={img23} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img24} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img25} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img26} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img27} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img29} className="pictureSantiagoHoriz" alt=""></img>
-        <img src={img32} className="pictureSantiagoHoriz" alt=""></img>
+        <img src={img1} className="picturesVertical" alt=""></img>
+        <img src={img2} className="picturesVertical" alt=""></img>
+        <img src={img3} className="picturesVertical" alt=""></img>
+        <img src={img4} className="picturesVertical" alt=""></img>
+        <img src={img6} className="picturesVertical" alt=""></img>
+        <img src={img7} className="picturesVertical" alt=""></img>
+        <img src={img8} className="picturesVertical" alt=""></img>
+        <img src={img9} className="picturesVertical" alt=""></img>
+        <img src={img10} className="picturesVertical" alt=""></img>
+        <img src={img12} className="picturesVertical" alt=""></img>
+        <img src={img5} className="picturesVertical" alt=""></img>
+        <img src={img14} className="picturesVertical" alt=""></img>
+        <img src={img13} className="picturesVertical" alt=""></img>
+        <img src={img11} className="picturesVertical" alt=""></img>
+        <img src={img15} className="picturesVertical" alt=""></img>
+        <img src={img17} className="picturesVertical" alt=""></img>
+        <img src={img19} className="picturesVertical" alt=""></img>
+        <img src={img16} className="picturesVertical" alt=""></img>
+        <img src={img18} className="picturesVertical" alt=""></img>
+        <img src={img20} className="picturesVertical" alt=""></img>
+        <img src={img21} className="picturesVertical" alt=""></img>
+        <img src={img22} className="picturesVertical" alt=""></img>
+        <img src={img23} className="picturesVertical" alt=""></img>
+        <img src={img24} className="picturesVertical" alt=""></img>
+        <img src={img25} className="picturesVertical" alt=""></img>
+        <img src={img26} className="picturesVertical" alt=""></img>
+        <img src={img27} className="picturesVertical" alt=""></img>
+        <img src={img29} className="picturesVertical" alt=""></img>
+        <img src={img32} className="picturesVertical" alt=""></img>
       </div>
     </>
   );

@@ -212,7 +212,8 @@ h3 {
 }
 
 .blogger {
-  width: 9%;
+  width: 12%;
+  padding: 2%;
 }
 
 /* Anuncio */
@@ -470,7 +471,7 @@ h6 {
 
 
 .title-pic {
-  text-align: center;
+ margin: 0 0 2% 30%;
 }
 
 
@@ -480,13 +481,6 @@ h6 {
   width: 93vw;
   height: 93vh;
   text-align: center;
-}
-
-.picture {
-  width: 40%;
-  height: 46%;
-  z-index: 100;
-  margin: 0 0 2% 7%;
 }
 
 .title-sesiones {
@@ -517,40 +511,49 @@ h6 {
   border-radius: 5px;
 }
 
-.pictureSantiago {
-  width: 30%;
-  margin: 2%;
+.picture {
+  width: 40%;
+  height: 46%;
+  z-index: 100;
+  margin: 0 0 2% 7%;
 }
 
-.pictureSantiagoHoriz, .picturesHoriz {
+ .picturesVertical {
   width: 30%;
   margin: 2%;
 }
 
 .footer{
   background-color: #242424;
-  color: darkgray;
   margin: 3% 0 0 0;
   position: fixed;
   bottom: 0;
-  width: 35%;
+  width: 30%;
   border-radius: 0 10px 0 10px;
   display: flex;
   flex-direction: row;
+  padding: 1%;
+  
 }
 
 .title-footer{
-  font-size: 1.5vw;
+  width: 120%;
+  color: darkgray;
+  font-size: 1.2vw;
   text-align: center;
-  padding: 1% 3% 1% 1%;
+  padding: 1% 2% 1% 2%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.title-footer:hover{
+  color: rgb(251, 144, 176);
+  opacity: 0.5;
+}
+
 .loguito{
-  width: 9%;
-  height: 9%;
-  padding: 0 0 0 0;
-  margin: 0;
+  width: 10%;
+  height: 10%;
+  margin: 0 0 0 10%;
 
 }
 
@@ -705,6 +708,18 @@ h6 {
 
   .leaflet-container{
     width: 87%;
+  }
+
+  .picture{
+    width: 20rem;
+    height: 12rem;
+    margin: 4%;
+  }
+
+  .picturesVertical{
+    width: 18rem;
+    height: 25rem;
+    margin: 4%;
   }
 
 

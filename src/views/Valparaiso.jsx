@@ -23,19 +23,19 @@ const Valparaiso = () => {
         <div className="title-sesiones">
           <Title title="TetArte Valparaíso" />
         </div>
-        <img src={img1} className="picturesHoriz" alt=""></img>
-        <img src={img2} className="picturesHoriz" alt=""></img>
-        <img src={img3} className="picturesHoriz" alt=""></img>
-        <img src={img4} className="picturesHoriz" alt=""></img>
-        <img src={img5} className="picturesHoriz" alt=""></img>
-        <img src={img6} className="picturesHoriz" alt=""></img>
-        <img src={img7} className="picturesHoriz" alt=""></img>
-        <img src={img8} className="picturesHoriz" alt=""></img>
-        <img src={img9} className="picturesHoriz" alt=""></img>
-        <img src={img10} className="picturesHoriz" alt=""></img>
-        <img src={img11} className="picturesHoriz" alt=""></img>
-        <img src={img12} className="picturesHoriz" alt=""></img>
-        <img src={img13} className="picturesHoriz" alt=""></img>
+        <img src={img1} className="picturesVertical" alt=""></img>
+        <img src={img2} className="picturesVertical" alt=""></img>
+        <img src={img3} className="picturesVertical" alt=""></img>
+        <img src={img4} className="picturesVertical" alt=""></img>
+        <img src={img5} className="picturesVertical" alt=""></img>
+        <img src={img6} className="picturesVertical" alt=""></img>
+        <img src={img7} className="picturesVertical" alt=""></img>
+        <img src={img8} className="picturesVertical" alt=""></img>
+        <img src={img9} className="picturesVertical" alt=""></img>
+        <img src={img10} className="picturesVertical" alt=""></img>
+        <img src={img11} className="picturesVertical" alt=""></img>
+        <img src={img12} className="picturesVertical" alt=""></img>
+        <img src={img13} className="picturesVertical" alt=""></img>
     </div>
     </>
   )
