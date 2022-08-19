@@ -586,16 +586,26 @@ h6 {
   }
 
   h1.title-blog {
-    margin: 0 0 0 -30%;
+    margin: 0 0 0 -20%;
   }
 
   .img-modal {
-    width: 50%;
+    width: 90%;
     margin: 0 0 120% 15%;
   }
 
   .title-modal {
-    margin: 0 0 0 10%;
+    margin: 0 0 0 16%;
+  }
+
+  .modal-container {
+    min-width: 240px;
+    max-width: 360px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow: hidden;
+    margin: -90% 0 0 -36%;
+    
   }
 
   .content-pictures {
