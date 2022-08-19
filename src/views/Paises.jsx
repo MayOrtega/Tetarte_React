@@ -7,9 +7,10 @@ import Footer from "../components/Footer.jsx";
 
 const Paises = () => {
   return (
+    <div className="banner-paises">
     <div className="content-paises">
       <Navbar />
-      <div className="title-paises">
+      <div className="title-quienes-somos">
         <Title title="Red TetArte 2022" />
       </div>
       <div className="div-mapView">
@@ -19,6 +20,7 @@ const Paises = () => {
         <MapViewMini />
       </div>
       <Footer />
+    </div>
     </div>
   );
 };

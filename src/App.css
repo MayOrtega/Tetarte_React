@@ -2,29 +2,43 @@
 
 body {
   background-color: #000002;
+  
+}
+
+.banner{
+  background-image: url("./img/banner.jpg");
+  background-size: 102%;
+  background-repeat: no-repeat;
+  background-position-y: -9.8%;
+  
+  
+  overflow-x: hidden;
+}
+.banner-contacto{
   background-image: url("./img/banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: -10%;
-  background-position-x: 50%;
+  background-position-y: -76%;
   overflow-x: hidden;
 }
 
-/* Inicio */
-
-.title-inicio {
-  width: 50%;
-  font-family: "Kite One";
-  font-size: 2.5vw;
-  color: #fff;
-  background-color: #0000022a;
-  font-weight: bold;
-  text-align: center;
-  margin: 4% 0 0 0;
-  border-radius: 10px;
-  position: absolute;
-  padding: 2% 3.5% 2% 3.5%;
+.banner-paises{
+  background-image: url("./img/banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -88%;
 }
+
+.banner-proyecto{
+  background-image: url("./img/banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -88%;
+
+}
+
+
+/* Inicio */
 
 .line {
   height: 3px;
@@ -88,16 +102,25 @@ a.links-nav {
 
 .content-slide {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 2% 0 0 8%;
   width: 100%;
   justify-content: center;
 }
 
-.div-slice {
-  width: 40%;
-  margin: 2% 7% 0 -2%;
+.title-slice{
+  color:#c3bf4e;
+  font-family: 'Kite One';
+  margin: 12% 0 0 22%;
+  
 }
+
+.div-slice {
+  width: 55%;
+  margin: -6% 7% 0 14%;
+}
+
+
 
 img.d-block {
   padding: 10%;
@@ -113,31 +136,30 @@ img.d-block {
   margin: 0 0 0 5%;
 }
 
-.section1 {
-  width: 50%;
-  margin: 2%;
-}
-
 .section2 {
   text-align: center;
   width: 30%;
 }
 
+
 .content-video-slice {
-  width: 140%;
+  width: 100%;
   text-align: center;
+  margin: 10% 0 0 -100%;
 }
 
 .title-videos {
   font-family: "Kite One";
   color: #c3bf4e;
-  font-size: 2.5vw;
-  margin: 0 0 0 -12%;
+  font-size: 3.2vw;
+  margin: 0 10% 0 -15%;
   width: 100%;
 }
 
-.sectionVideos {
-  margin: 3% 0 0 7%;
+.section-video {
+  width: 100%;
+  margin: 30% 0 0 -10%;
+  padding: 1%;
 }
 
 /* Blog */
@@ -149,8 +171,9 @@ img.d-block {
 
 .texto-blog {
   width: 50%;
-  margin: 5% 0 0 2%;
+  margin: 6% 0 0 2%;
   text-align: justify;
+  font-size: 2vw;
 }
 
 .div-fotos {
@@ -164,7 +187,7 @@ img.d-block {
 .mujer,
 .mujeres,
 .crianza {
-  padding: 2%;
+  padding: 1%;
   margin: 1%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -173,8 +196,9 @@ img.d-block {
 }
 
 .amamantar {
-  width: 19%;
+  width: 12%;
   height: 20%;
+  margin: 7% 0 0 0;
 }
 
 .mama,
@@ -190,7 +214,7 @@ img.d-block {
 }
 
 .div-blog {
-  width: 100%;
+  width: 80%;
   margin: 0 0 0 8%;
   font-family: "Kite One";
   text-align: center;
@@ -199,8 +223,9 @@ img.d-block {
 
 .title-blog {
   padding: 3%;
-  font-size: 2.5vw;
   color: #c3bf4e;
+  font-size: 3vw;
+  margin: 0 0 0 -20%;
 }
 
 h3 {
@@ -248,16 +273,14 @@ h3 {
 
 /* Contacto */
 .title-contacto {
-  margin: 5% 0 0 0;
   color: #fff;
   background-color: #0000022a;
-  width: 50%;
+  width: 30%;
   font-family: "Kite One";
-  margin: 4% 1% 0 0;
-  font-size: 2.5rem;
-  text-align: center;
+  margin: 2% 1% 0 12%;
+  font-size: 2.8rem;
   border-radius: 10px;
-  padding: 1% 0 1% 0;
+  padding: 1.5% 3% 1.5% 3%;
 }
 
 .card-img-top {
@@ -268,6 +291,15 @@ h3 {
   display: flex;
   flex-direction: row;
   height: 490px;
+  margin: 2% 0 0 0;
+}
+
+.card-title{
+  margin: 4% 0 0 0;
+}
+
+.card-title-mail{
+  margin:5% 0 0 0;
 }
 
 .card {
@@ -328,6 +360,7 @@ h6 {
   text-align: center;
   color: white;
   font-family: "Kite One";
+  margin: 12% 0 0 0;
 }
 
 .div-mapViewMini {
@@ -357,25 +390,23 @@ h6 {
 }
 
 .title-quienes-somos {
-  text-align: center;
-  color: white;
-  background-color: #0000022a;
-  width: 50%;
+  width: 30%;
   font-family: "Kite One";
-  margin: 4% 0 2% 0;
+  color: #fff;
+  background-color: #0000022a;
   font-weight: bold;
-  text-align: center;
-  padding: 1% 0 1% 0;
-  border-radius: 10px;
+  margin: 2% 0 0 12%;
+  position: absolute;
+  padding: 2% 3.5% 2% 3.5%;
 }
 
 .section1-quienes-somos {
   color: white;
-  width: 50%;
+  width: 60%;
   height: 30%;
   border: solid #fff 1px;
   padding: 4%;
-  margin: 3% 0 0 5%;
+  margin: 18% 0 0 8%;
   font-family: "Kite One";
   font-size: 1.4rem;
   background-color: #000002;
@@ -387,9 +418,8 @@ h6 {
 }
 
 .foto1-somos {
-  width: 60%;
-  margin: 6% 0 0 10%;
-  transform: rotate(5deg);
+  width: 70%;
+  margin: 40% 0 0 10%;
   border: solid #c3bf4e 2px;
   border-radius: 5px;
 }
@@ -446,12 +476,12 @@ h6 {
   grid-row-gap: 20%;
   flex-direction: row;
   text-align: center;
-  margin: 0 0 0 0;
+  margin: 0 15% 0 15%;
 }
 
 .pictures {
-  width: 180px;
-  height: 110px;
+  width: 12rem;
+  height: 8rem;
   border-radius: 15px 0 15px 0;
   border: solid white 2px;
 }
@@ -461,13 +491,14 @@ h6 {
 }
 
 .section-pic {
-  color: rgb(188, 187, 187);
-  font-family: "Kite One";
-  font-size: 1.5rem;
+  text-align: center;
 }
 
 .title-pic {
-  margin: 0 0 2% 30%;
+  margin: 0 0 2% 20%;
+  font-size: 1.6vw;
+  color: white;
+  font-family: "Kite One";
 }
 
 .title-pic-mini{
@@ -559,16 +590,21 @@ h6 {
     flex-direction: column;
   }
 
-  .title-inicio{
-    margin: 12% 0 0 0;
+  .banner, .banner-proyecto, .banner-paises, .banner-contacto{
+    background-position-y: 0%;
+  }
+
+    .div-slice{
+   margin: -15% 0 0 16%;
   }
 
   .section1 {
-    width: 100%;
+    width: 30%;
   }
+  
 
   .content-video-slice {
-    width: 60%;
+    width: 100%;
     margin: 15% 0 0 22%;
   }
 
@@ -585,19 +621,12 @@ h6 {
     font-size: 3.5vw;
   }
 
-  .title-prop {
-    font-size: 3.5vw;
-  }
   img.d-block {
     margin: 20% 0 0 0;
     width: 120%;
   }
 
-  h1.title-blog {
-    margin: 0 0 0 -20%;
-  }
-
-  .img-modal {
+    .img-modal {
     width: 90%;
     margin: 0 0 120% 15%;
   }
@@ -608,11 +637,11 @@ h6 {
 
   .modal-container {
     min-width: 240px;
-    max-width: 360px;
+    max-width: 400px;
     min-height: 200px;
     max-height: 400px;
     overflow: hidden;
-    margin: -90% 0 0 -36%;
+    margin: -90% 0 0 -20%;
     
   }
 
@@ -628,25 +657,23 @@ h6 {
     margin: 1%;
   }
 
-  .title-videos,
-  .title-blog,
-  .title-sesiones,
-  .title-prop {
-    font-size: 5vw;
-  }
+ 
 
   .title-videos {
     margin: 1% 0 0 -75%;
     position: relative;
+    font-size: 4vw;
   }
 
   .title-prop {
-    margin: 10% 0 0 0;
+    margin: -2% 0 0 5%;
+    font-size: 4vw;
   }
+
+  
 
   .title-pic {
     font-size: 3vw;
-
   }
 
   #pics-bucaramanga{
@@ -655,6 +682,7 @@ h6 {
 
   .texto-blog {
     font-size: 3vw;
+   
   }
 
   .div-anuncio {
@@ -664,26 +692,28 @@ h6 {
 
   .content-quienes-somos {
     flex-direction: column;
-    margin: 2% 0 0 0;
+    margin: 4% 0 0 0;
   }
 
   .section1-quienes-somos {
-    width: 80%;
+    width: 70%;
     font-size: 3.5vw;
-    margin: 2% 0 0 11%;
+    margin: 30% 0 0 16%;
   }
 
   .section2-quienes-somos {
-    margin: 4% 0 10% 18%;
-    width: 60%;
+    margin: -30% 0 10% 0;
+    width: 90%;
   }
 
   .title-quienes-somos {
-    margin: 15% 0 0 0;
+    margin: 1% 0 0 15%;
+    width: 30%;
   }
 
   .title-paises {
-    margin: 12% 0 0 0;
+    margin: 15% 0 0 0;
+    width: 50%;
   }
 
   .div-mapView {
@@ -692,11 +722,11 @@ h6 {
 
   .div-mapViewMini {
     display: block;
-    margin: 5% 0 0 0;
+    margin: 30% 0 0 0;
   }
 
   .title-contacto {
-    margin: 15% 0 0 0;
+    margin: 3% 0 0 16%;
     font-size: 6vw;
   }
 

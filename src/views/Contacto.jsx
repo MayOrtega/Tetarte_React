@@ -12,9 +12,10 @@ import Footer from "../components/Footer";
 const Contacto = () => {
   const [copied, setCopied] = useState(false);
   return (
+    <div className="banner-contacto">
     <div className="content-contacto">
       <Navbar />
-      <div className="title-contacto">Contáctanos</div>
+      <div className="title-contacto">Contacto</div>
       <div className="card-deck">
         <div className="card">
           <a
@@ -29,26 +30,33 @@ const Contacto = () => {
               target="_blank"
               rel="noreferrer"
             >
+              
               <img src={click} className="click" alt="click"></img>
             </a>
             <h5 className="card-title">Instagram TetArte</h5>
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src={gmail} alt="Card"></img>
+        <img      src={gmail}
+                  onClick={() => setCopied(true)}
+                  style={{ width: "12%" }}
+                  alt=""
+                ></img>
           <div className="card-body">
-            <h5 className="card-title">Correo Electrónico</h5>
-            <CopyToClipboard text="onggrial@gmail.com">
-              <>
-                <img
-                  src={copy}
+            
+          <img      src={click}
                   onClick={() => setCopied(true)}
                   style={{ width: "14%" }}
                   alt=""
                 ></img>
-                <h6 className="text-mail">onggrial@gmail.com</h6>
-                <p style={{ fontSize: "1%" }}>
-                  {copied && <span>Texto copiado!</span>}
+                
+          
+            <h5 className="card-title-mail">Correo Electrónico</h5>
+            <CopyToClipboard text="onggrial@gmail.com">
+              <>
+                
+                 <p style={{ fontSize: "100%" }}>
+                  {copied && <span>Dirección de correo copiada!</span>}
                 </p>
               </>
             </CopyToClipboard>
@@ -75,6 +83,7 @@ const Contacto = () => {
         </div>
       </div>
       <Footer />
+    </div>
     </div>
   );
 };

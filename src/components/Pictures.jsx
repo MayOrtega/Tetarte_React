@@ -107,7 +107,7 @@ const Pictures = () => {
         </section>
         <section className="section-pic">
           <h3 className="title-pic" id="pics-bucaramanga">
-            Bucaramanga - Colombia
+            Bucaramanga - Col.
           </h3>
           <h3 className="title-pic-mini">Bucaramanga</h3>
           <Link

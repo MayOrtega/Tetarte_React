@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Slice from "../components/Slice";
 import Blog from "../components/Blog";
 import VideoSlice from "../components/VideoSlice";
-import Title from "../components/Title";
 import Advertising from "../components/Advertising";
 import Pictures from "../components/Pictures";
 import Footer from "../components/Footer";
@@ -11,14 +10,11 @@ import Footer from "../components/Footer";
 const Inicio = () => {
   return (
     <>
-      <div>
+      <div className="banner">
         <Navbar />
-        <div className="title-inicio">
-          <Title title="Masivas TetArte" />
-        </div>
         <Slice />
         <div className="content-inicio">
-          <section className="section1">
+          <section className="">
             <Blog />
           </section>
           <section className="sectionVideos">

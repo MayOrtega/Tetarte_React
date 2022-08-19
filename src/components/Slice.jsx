@@ -17,6 +17,7 @@ import Armenia from "../img/Masivas/ArmeniaB.jpg";
 import Modal from "./Modal";
 import useModal from "./useModal";
 import Zacatecas from "../img/Masivas/ZacatecasB.jpg";
+import Title from "./Title";
 
 function Slice() {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
@@ -39,6 +40,9 @@ function Slice() {
   return (
     <>
       <div className="content-slide">
+        <div className="title-slice">
+          <Title title="Sesiones Masivas TetArte 2022" />
+        </div>
         <section className="div-slice">
           <Carousel>
             <Carousel.Item>

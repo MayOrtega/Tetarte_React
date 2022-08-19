@@ -7,6 +7,7 @@ import foto1 from "../img/paloma.jpg";
 const Proyecto = () => {
   return (
     <>
+    <div className="banner-proyecto">
       <div className="quienes-somos">
         <Navbar />
 
@@ -34,7 +35,9 @@ const Proyecto = () => {
         </div>
       </div>
       <Footer />
+      </div>
     </>
+
   );
 };
 
