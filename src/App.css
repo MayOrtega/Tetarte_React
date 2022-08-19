@@ -470,6 +470,10 @@ h6 {
   margin: 0 0 2% 30%;
 }
 
+.title-pic-mini{
+  display: none;
+}
+
 /* image  */
 .content-gallery {
   width: 93vw;
@@ -642,6 +646,11 @@ h6 {
 
   .title-pic {
     font-size: 3vw;
+
+  }
+
+  #pics-bucaramanga{
+    display: none;
   }
 
   .texto-blog {
@@ -652,9 +661,6 @@ h6 {
     margin: 25% 0 0 18%;
   }
 
-  #pics-bucaramanga {
-    font-size: 2.5vw;
-  }
 
   .content-quienes-somos {
     flex-direction: column;
@@ -726,6 +732,12 @@ h6 {
     width: 18rem;
     height: 25rem;
     margin: 4%;
+  }
+
+  .title-pic-mini{
+    display: block;
+    font-size: 3vw;
+    margin: 0 0 0 18%;
   }
 
   .title-footer{

@@ -109,6 +109,7 @@ const Pictures = () => {
           <h3 className="title-pic" id="pics-bucaramanga">
             Bucaramanga - Colombia
           </h3>
+          <h3 className="title-pic-mini">Bucaramanga</h3>
           <Link
             to="../views/Bucaramanga.jsx"
             className="links-nav"
