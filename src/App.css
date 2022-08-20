@@ -655,14 +655,18 @@ h6 {
     width: 60%;
     height: 60%;
     margin: 1%;
+    
   }
 
- 
+  .section-video{
+    margin: 40% 0 0 -12%;
+    z-index: 99;
+    
+  }
 
   .title-videos {
-    margin: 1% 0 0 -75%;
-    position: relative;
-    font-size: 4vw;
+     margin:-10% 0 0 -25%;
+     font-size: 4vw;
   }
 
   .title-prop {
@@ -680,9 +684,17 @@ h6 {
     display: none;
   }
 
+  .title-blog{
+    margin: -3% 0 0 -30%;
+  }
   .texto-blog {
     font-size: 3vw;
    
+  }
+
+  .div-blog{
+    width: 100%;
+    margin: 0 0 0 13%;
   }
 
   .div-anuncio {
