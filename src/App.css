@@ -645,6 +645,10 @@ h6 {
     
   }
 
+  .title-sesiones-principal{
+    margin: -14% 0 10% 10%;
+  }
+
   .content-pictures {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
