@@ -41,33 +41,33 @@ const Santiago = () => {
         </div>
         <img src={img1} className="picturesVertical" alt=""></img>
         <img src={img2} className="picturesVertical" alt=""></img>
-        <img src={img3} className="picturesVertical" alt=""></img>
-        <img src={img4} className="picturesVertical" alt=""></img>
-        <img src={img6} className="picturesVertical" alt=""></img>
-        <img src={img7} className="picturesVertical" alt=""></img>
-        <img src={img8} className="picturesVertical" alt=""></img>
-        <img src={img9} className="picturesVertical" alt=""></img>
-        <img src={img10} className="picturesVertical" alt=""></img>
-        <img src={img12} className="picturesVertical" alt=""></img>
+        <img src={img3} className="picturesHorizontal" alt=""></img>
+        <img src={img4} className="picturesHorizontal" alt=""></img>
+        <img src={img6} className="picturesHorizontal" alt=""></img>
+        <img src={img7} className="picturesHorizontal" alt=""></img>
+        <img src={img8} className="picturesHorizontal" alt=""></img>
+        <img src={img9} className="picturesHorizontal" alt=""></img>
+        <img src={img10} className="picturesHorizontal" alt=""></img>
+        <img src={img12} className="picturesHorizontal" alt=""></img>
         <img src={img5} className="picturesVertical" alt=""></img>
         <img src={img14} className="picturesVertical" alt=""></img>
-        <img src={img13} className="picturesVertical" alt=""></img>
-        <img src={img11} className="picturesVertical" alt=""></img>
-        <img src={img15} className="picturesVertical" alt=""></img>
-        <img src={img17} className="picturesVertical" alt=""></img>
+        <img src={img13} className="picturesHorizontal" alt=""></img>
+        <img src={img11} className="picturesHorizontal" alt=""></img>
+        <img src={img15} className="picturesHorizontal" alt=""></img>
+        <img src={img17} className="picturesHorizontal" alt=""></img>
         <img src={img19} className="picturesVertical" alt=""></img>
         <img src={img16} className="picturesVertical" alt=""></img>
-        <img src={img18} className="picturesVertical" alt=""></img>
-        <img src={img20} className="picturesVertical" alt=""></img>
+        <img src={img18} className="picturesHorizontal" alt=""></img>
+        <img src={img20} className="picturesHorizontal" alt=""></img>
         <img src={img21} className="picturesVertical" alt=""></img>
         <img src={img22} className="picturesVertical" alt=""></img>
-        <img src={img23} className="picturesVertical" alt=""></img>
-        <img src={img24} className="picturesVertical" alt=""></img>
-        <img src={img25} className="picturesVertical" alt=""></img>
-        <img src={img26} className="picturesVertical" alt=""></img>
-        <img src={img27} className="picturesVertical" alt=""></img>
-        <img src={img29} className="picturesVertical" alt=""></img>
-        <img src={img32} className="picturesVertical" alt=""></img>
+        <img src={img23} className="picturesHorizontal" alt=""></img>
+        <img src={img24} className="picturesHorizontal" alt=""></img>
+        <img src={img25} className="picturesHorizontal" alt=""></img>
+        <img src={img26} className="picturesHorizontal" alt=""></img>
+        <img src={img27} className="picturesHorizontal" alt=""></img>
+        <img src={img29} className="picturesHorizontal" alt=""></img>
+        <img src={img32} className="picturesHorizontal" alt=""></img>
       </div>
     </>
   );

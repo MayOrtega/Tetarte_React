@@ -14,10 +14,10 @@ const Temuco = () => {
         <div className="title-sesiones">
           <Title title="TetArte Temuco" />
         </div>
-        <img src={img1} className="picture" alt=""></img>
-        <img src={img2} className="picture" alt=""></img>
-        <img src={img3} className="picture" alt=""></img>
-        <img src={img4} className="picture" alt=""></img>
+        <img src={img1} className="picturesHorizontal" alt=""></img>
+        <img src={img2} className="picturesHorizontal" alt=""></img>
+        <img src={img3} className="picturesHorizontal" alt=""></img>
+        <img src={img4} className="picturesHorizontal" alt=""></img>
       </div>
     </>
   );

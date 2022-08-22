@@ -41,7 +41,7 @@ function Slice() {
     <>
       <div className="content-slide">
         <div className="title-slice">
-          <Title title="Sesiones Masivas TetArte 2022" />
+          <Title title="Masivas TetArte 2022" />
         </div>
         <section className="div-slice">
           <Carousel>

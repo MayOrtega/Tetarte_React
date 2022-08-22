@@ -14,7 +14,7 @@ const Pictures = () => {
   return (
     <>
       <div className="title-sesiones-principal">
-        <Title title="Sesiones Individuales Tetarte 2022" />
+        <Title title="Individuales TetArte 2022" />
       </div>
       <div className="content-pictures">
         <section className="section-pic">
