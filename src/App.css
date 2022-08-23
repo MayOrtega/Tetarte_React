@@ -22,6 +22,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .banner-paises{
   background-image: url("./img/banner.jpg");
   background-size: 100%;
@@ -97,6 +98,7 @@ a.links-nav {
 #inicio-link {
   margin-left: -6%;
 }
+
 
 /* Slide */
 
