@@ -37,15 +37,19 @@ const Contacto = () => {
           </div>
         </div>
         <div className="card">
+        <CopyToClipboard text="onggrial@gmail.com">
         <img      src={gmail}
-                  onClick={() => setCopied(true)}
-                  style={{ width: "12%" }}
+                  className="card-img-top"
+                  onClick={() => alert('Dirección de correo copiada!')}
+                  style={{ width: "14%" }}
                   alt=""
                 ></img>
+                </CopyToClipboard>
           <div className="card-body">
                 
             <CopyToClipboard text="onggrial@gmail.com">
             <img    src={click}
+                    className="click"
                   onClick={() => alert('Dirección de correo copiada!')}
                   style={{ width: "14%" }}
                   alt=""
