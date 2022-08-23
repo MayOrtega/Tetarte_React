@@ -420,7 +420,7 @@ h6 {
   height: 30%;
   border: solid #fff 1px;
   padding: 4%;
-  margin: 18% 0 0 8%;
+  margin: 15% 0 0 8%;
   font-family: "Kite One";
   font-size: 1.4rem;
   background-color: #000002;
@@ -433,9 +433,33 @@ h6 {
 
 .foto1-somos {
   width: 70%;
-  margin: 40% 0 0 10%;
+  margin: 36% 0 0 10%;
   border: solid #c3bf4e 2px;
   border-radius: 5px;
+}
+
+.content-dossier{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow:initial;
+}
+
+.title-dossier-1{
+  font-family: 'Kite One';
+  color: #000002;
+  font-weight: bold;
+  margin: 1% 0 0 0;
+  background-color: #c3bf4e;
+  width: 34%;
+  padding: 2%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.title-dossier-1:hover{
+  background-color: #c3bf4e66;
+
 }
 
 /* Modales */

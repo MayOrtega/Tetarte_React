@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
 import foto1 from "../img/paloma.jpg";
+import { Link } from "react-router-dom";
 
 const Proyecto = () => {
   return (
@@ -28,11 +29,15 @@ const Proyecto = () => {
               Proyecto de ONG Grial, marca registrada y protegido por ley de
               derechos de autor.
             </p>
+            <Link to='../views/Dossier.jsx' target="_blank"
+            rel="noreferrer">
+            <h3 className="title-dossier-1">Ver nuestro Dossier</h3>
+            </Link>
           </section>
           <section className="section2-quienes-somos">
             <img src={foto1} className="foto1-somos" alt="fundadora"></img>
-          </section>
-        </div>
+           </section>
+         </div>
       </div>
       <Footer />
       </div>

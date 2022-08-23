@@ -16,6 +16,7 @@ import Rancagua from "./views/Rancagua";
 import Pichilemu from "./views/Pichilemu";
 import Valparaiso from "./views/Valparaiso";
 import Bucaramanga from "./views/Bucaramanga";
+import Dossier from "./views/Dossier"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,6 +35,7 @@ root.render(
       <Route path="/views/Pichilemu.jsx" element={<Pichilemu />} />
       <Route path="/views/Valparaiso.jsx" element={<Valparaiso />} />
       <Route path="/views/Bucaramanga.jsx" element={<Bucaramanga />} />
+      <Route path="/views/Dossier.jsx" element={<Dossier />} />
     </Routes>
   </BrowserRouter>
 );
