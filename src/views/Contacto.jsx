@@ -5,12 +5,10 @@ import facebook from "../img/facebook.png";
 import Navbar from "../components/Navbar";
 import click from "../img/click.png";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { useState } from "react";
-import copy from "../img/copy.png";
 import Footer from "../components/Footer";
 
 const Contacto = () => {
-  const [copied, setCopied] = useState(false);
+ 
   return (
     <div className="banner-contacto">
     <div className="content-contacto">

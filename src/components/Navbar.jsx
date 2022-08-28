@@ -21,6 +21,9 @@ const Navbar = () => {
         <Link to="../views/Paises.jsx" className="links-nav">
           Países
         </Link>
+        <Link to="../views/BlogTetarte.jsx" className="links-nav">
+          Blog
+        </Link>
         <Link
           to="../views/Contacto.jsx"
           className="links-nav"

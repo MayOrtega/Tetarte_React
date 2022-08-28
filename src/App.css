@@ -14,11 +14,16 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: 3.5%;
-  
-  
-  
   overflow-x: hidden;
 }
+
+  .banner-blog-tetarte{
+  background-image: url("./img/banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 8.5%;
+  }
+
 .banner-contacto{
   background-image: url("./img/banner.jpg");
   background-size: 100%;
@@ -49,7 +54,7 @@ body {
 /* Inicio */
 
 .line {
-  height: 3px;
+  height: 2px;
 }
 
 
@@ -63,7 +68,7 @@ nav {
 
 .hr {
   height: 4px;
-  width: 12%;
+  width: 8%;
   background-color: #c3bf4e;
   padding: 0.2%;
   z-index: 998;
@@ -631,17 +636,102 @@ h6 {
   margin: 0 0 0 10%;
 }
 
+/* CRUD */
+td{
+  background-color: white;
+ }
+
+ .col{
+  margin: 3% 0 0 0;
+  font-family: 'Kite One';
+ }
+
+ .form-control{
+  width: 60%;
+  margin: 0 0 0 20%;
+ }
+ .table-dark{
+--bs-table-bg: #000002;
+--bs-table-border-color: transparent;
+border-bottom:  #fff 1px;
+}
+
+tbody{
+  border-radius: 10px;
+  
+}
+ 
+
+.texto-blog-tetarte{
+  margin: -1% 8% 0 8%;
+  color: #fff;
+  font-family: Century Gothic;
+  font-size: 1.2vw;
+  line-height: 30px;
+  text-align: justify;
+  /* background-color: rgba(250, 235, 215, 0.137); */
+  padding: 2%;
+  border-radius: 10px;
+ }
+
+ .texto-blog-tetarte-h1{
+  color: #fff;
+  font-family: Century Gothic;
+  font-size: 1.6vw;
+  margin: 10% 0 0 10%;
+ }
+
+ .title-blog-tetarte{
+  margin: 5% 0 0 0;
+  color: #fff;
+  background-color: #0000022a;
+  width: 30%;
+  font-family: "Kite One";
+  margin: 3% 0 2% 10%;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1% 0 1% 0;
+ }
+
+ .encabezado-blog{
+  display: flex;
+  flex-direction: row;
+  margin: 8% 0 0 0;
+ }
+
+ .foto-blog{
+  width: 12%;
+  height: 4%;
+  margin: 8% 0 0 35%;
+  
+ }
+
+ #create-comment, .title-comment{
+  text-align: center;
+  color: #fff;
+  font-family: 'Kite One';
+  font-size: 1.4vw;
+  padding: 0;
+ }
+
+ #btn-submit-create{
+  background-color:#c3bf4e;
+  color: #000002;
+  font-weight: bold;
+ }
+
+
+
 /* Mediaquerys */
 @media screen and (max-width: 1300px) {
   .content-inicio {
     flex-direction: column;
   }
 
-  /* .banner, .banner-proyecto, .banner-paises, .banner-contacto{
-    background-position-: 0%;
-  } */
-
-    .div-slice{
+ 
+  .div-slice{
    margin: -15% 0 0 20%;
   }
 
