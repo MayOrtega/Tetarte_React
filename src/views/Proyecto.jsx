@@ -33,7 +33,7 @@ const Proyecto = () => {
               <Link to="../views/Dossier.jsx" target="_blank" rel="noreferrer">
                 <h3 className="title-dossier-1">Ver nuestro Dossier</h3>
               </Link>
-              <a href={DossierPDF} download="Dossier-TetArte.pdf">
+              <a href={DossierPDF} download="Dossier-TetArte.pdf" target="_blank" rel="noreferrer">
                 {" "}
                 <h3 className="title-dossier-2">Descargar nuestro Dossier</h3>
               </a>

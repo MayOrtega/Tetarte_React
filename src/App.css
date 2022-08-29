@@ -901,13 +901,15 @@ border-bottom:  #fff 1px;
 
   .section1-quienes-somos {
     width: 70%;
-    font-size: 3.5vw;
+    font-size: 4vw;
     margin: 30% 0 0 16%;
+    padding: 5%;
   }
 
   .section2-quienes-somos {
-    margin: -30% 0 10% 0;
-    width: 90%;
+     margin: -5% 0 0 23%;
+     padding: 0;
+     width: 50%;
   }
 
   .title-quienes-somos {
@@ -1085,4 +1087,22 @@ border-bottom:  #fff 1px;
   .banner-proyecto{
     background-position-y: 9%;
   }
+
+  .title-dossier-1{
+    display: none;
+  }
+  .title-dossier-2{
+    width:100%;
+    color: #c3bf4e;
+    padding: 4%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 4vw;
+    display: block;
+  }
+
+  
+  
+
+  
 }
