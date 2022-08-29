@@ -5,6 +5,7 @@ import mujeres from "../img/Mujeres.jpg";
 import mama from "../img/mama-hija.jpg";
 import mujer from "../img/Mujer.jpg";
 import blogger from "../img/blogger.png";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
@@ -16,14 +17,10 @@ const Blog = () => {
           Si te interesa leer sobre temas contingentes de lactancia, mujer,
           maternidad, crianza y mucho más... entra a nuestro blog aquí ➯
           <span>
-            <a
-              href="http://expotetarte.blogspot.com"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <Link to='../views/BlogTetarte.jsx'>
               <img src={blogger} className="blogger" alt=""></img>
-            </a>
-          </span>
+              </Link>
+            </span>
         </h3>
       </div>
       <div className="div-fotos">

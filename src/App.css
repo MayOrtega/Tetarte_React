@@ -37,7 +37,7 @@ body {
   background-image: url("./img/banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 14.3%;
+  background-position-y: 7%;
 }
 
 .banner-proyecto{
@@ -260,6 +260,7 @@ h3 {
 .blogger {
   width: 12%;
   padding: 2%;
+  filter: invert();
 }
 
 /* Anuncio */
@@ -406,6 +407,35 @@ h6 {
   width: 100%;
 }
 
+.table-paises{
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-paises{
+  padding: 5%;
+  font-family: 'Kite One';
+  margin: 0 0 0 4%;
+  text-align: center;
+}
+
+.h1-paises{
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+
+.h2-paises{
+  font-size: 1vw;
+}
+
+.title-table-paises{
+  font-family: 'Kite One';
+  font-size: 2vw;
+  color: #c3bf4e;
+  margin: 3% 0 0 6%;
+}
+
 /* Quienes somos */
 
 .content-quienes-somos {
@@ -536,8 +566,8 @@ h6 {
 }
 
 .pictures {
-  width: 12rem;
-  height: 8rem;
+  width: 9rem;
+  height: 6rem;
   border-radius: 15px 0 15px 0;
   border: solid white 2px;
 }
@@ -551,7 +581,7 @@ h6 {
 }
 
 .title-pic {
-  margin: 0 0 2% 20%;
+  margin: 0 0 2% 30%;
   font-size: 1.6vw;
   color: white;
   font-family: "Kite One";
@@ -661,8 +691,8 @@ border-bottom:  #fff 1px;
 .texto-blog-tetarte{
   margin: -1% 8% 0 8%;
   color: #fff;
-  font-family: Century Gothic;
-  font-size: 1.2vw;
+  font-family: 'Kite One';
+  font-size: 1.3vw;
   line-height: 30px;
   text-align: justify;
   /* background-color: rgba(250, 235, 215, 0.137); */
@@ -672,7 +702,7 @@ border-bottom:  #fff 1px;
 
  .texto-blog-tetarte-h1{
   color: #fff;
-  font-family: Century Gothic;
+  font-family: 'Kite One';
   font-size: 1.8vw;
   margin: 10% 0 0 10%;
  }
@@ -700,7 +730,9 @@ border-bottom:  #fff 1px;
  .foto-blog{
   width: 12%;
   height: 4%;
+  border-radius: 50%;
   margin: 8% 0 0 10%;
+  
   
  }
 
@@ -816,11 +848,18 @@ border-bottom:  #fff 1px;
      margin:-10% 0 0 -25%;
      font-size: 5.6vw;
   }
+  
+  .title-blog-tetarte{
+    background-color: transparent;
+  }
+
 
   .title-prop {
     margin: -1% 0 0 5%;
     font-size: 5.6vw;
     width: 100%;
+    background-color: #24242425;
+    border-radius: 5px;
     
   }
 
@@ -894,9 +933,11 @@ border-bottom:  #fff 1px;
 
   .title-contacto {
     width: 30%;
-    margin: 0 0 0 16%;
+    padding: 0 0 0 2%;
+    margin: 4% 0 0 20%;
     font-size: 6vw;
-    background-color: transparent;
+    background-color: #24242425;
+    border-radius: 5px;
   }
 
   .card-deck {
@@ -988,6 +1029,11 @@ border-bottom:  #fff 1px;
     display: none;
    }
 
+   #btn-submit-create{
+    width: 4.2em;
+    height: 2em;
+    text-align: center;
+   }
    .title-blog-tetarte{
     margin: 5% 0 0 20%;
     width: 30%;
@@ -1004,4 +1050,39 @@ border-bottom:  #fff 1px;
     font-size: 3.5vw;
    }
 
+   .h1-paises{
+    font-size: 3vw;
+    text-decoration: underline;
+    
+  }
+  
+  .h2-paises{
+    font-size: 2.5vw;
+  }
+  
+  .title-table-paises{
+    font-size: 3vw;
+  }
+
+  .section-paises{
+    margin: 5% 0 10% 1%;
+    padding: 3%;
+    
+  }
+
+  .banner-paises{
+    background-position-y: 4%;
+  }
+
+  .banner-contacto{
+    background-position-y: 8%;
+  }
+
+  .banner-blog-tetarte{
+    background-position-y: 3.9%;
+    }
+
+  .banner-proyecto{
+    background-position-y: 9%;
+  }
 }

@@ -19,6 +19,48 @@ const Paises = () => {
       <div className="div-mapViewMini">
         <MapViewMini />
       </div>
+      <h1 className="title-table-paises">Países Red Tetarte</h1>
+      <div class="table-paises">
+          <section className="section-paises">
+          <h1 className="h1-paises">Colombia</h1>
+          <h2 className="h2-paises">Armenia</h2>
+          <h2 className="h2-paises">Barranquilla</h2>
+          <h2 className="h2-paises">Bucaramanga</h2>
+          <h2 className="h2-paises">Cali</h2>
+          <h2 className="h2-paises">Popayan</h2>
+        </section>
+        <section className="section-paises">
+        <h1 className="h1-paises">Chile</h1>
+        <h2 className="h2-paises">Alto Hospicio</h2>
+        <h2 className="h2-paises">Castro</h2>
+        <h2 className="h2-paises">Curicó</h2>
+        <h2 className="h2-paises">Chillán</h2>
+        <h2 className="h2-paises">Iquique</h2>
+        <h2 className="h2-paises">La Ligua</h2>
+        <h2 className="h2-paises">Pichilemu</h2>
+        <h2 className="h2-paises">Quintero</h2>
+        <h2 className="h2-paises">Rancagua</h2>
+        <h2 className="h2-paises">San Antonio</h2>
+        <h2 className="h2-paises">Santiago</h2>
+        <h2 className="h2-paises">Temuco</h2>
+        <h2 className="h2-paises">Valparaíso</h2>
+        </section>
+        <section className="section-paises">
+          <h1 className="h1-paises">España</h1>
+          <h2 className="h2-paises">Alcoy</h2>
+        </section>
+        <section className="section-paises">
+          <h1 className="h1-paises">Italia</h1>
+          <h2 className="h2-paises">Génova, Liguria</h2>
+        </section>
+        <section className="section-paises">
+          <h1 className="h1-paises">México</h1>
+          <h2 className="h2-paises">Zacatecas</h2>
+        </section>
+
+
+
+</div>
       <Footer />
     </div>
     </div>
