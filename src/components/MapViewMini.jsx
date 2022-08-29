@@ -44,7 +44,7 @@ const MapViewMini = () => {
   const cali = [3.4528084928951115, -76.52566694458419];
   const popayan = [2.478050506154297, -76.6109210742583];
   const mexico = [24.218561903350828, -101.76393423144421];
-  const genova = [44.422132, 8.875031]
+  const genova = [44.422132, 8.875031];
 
   return (
     <MapContainer center={position} zoom={1} scrollWheelZoom={false}>

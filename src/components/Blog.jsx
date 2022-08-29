@@ -17,10 +17,10 @@ const Blog = () => {
           Si te interesa leer sobre temas contingentes de lactancia, mujer,
           maternidad, crianza y mucho más... entra a nuestro blog aquí ➯
           <span>
-            <Link to='../views/BlogTetarte.jsx'>
+            <Link to="../views/BlogTetarte.jsx">
               <img src={blogger} className="blogger" alt=""></img>
-              </Link>
-            </span>
+            </Link>
+          </span>
         </h3>
       </div>
       <div className="div-fotos">

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
-  return (
-    <div className='banner'></div>
-  )
-}
+  return <div className="banner"></div>;
+};
 
-export default Header
+export default Header;

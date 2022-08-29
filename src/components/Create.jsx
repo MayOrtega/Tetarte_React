@@ -1,20 +1,26 @@
 import React, { useState } from 'react'
-// import { useNavigate } from 'react-router-dom'
 import { collection, addDoc } from 'firebase/firestore'
 import { db } from '../firebaseConfig/firebase'
+import Swal from "sweetalert2";
 
 const Create = () => {
   const [ comment, setComment ] = useState('')
   const [ name, setName ] = useState('')
-//   const navigate = useNavigate()
+
 
   const postCollection = collection(db, "posts")
 
   const store = async (e) => {
     e.preventDefault()
+    if(name !== '' && comment !== ''){
     await addDoc( postCollection, { comment: comment, name: name } )
     window.location.href = '../views/BlogTetarte.jsx';
-    //console.log(e.target[0].value)
+    
+    Swal.fire('Comentario Grabado')
+    }else{
+      Swal.fire('Hay campos vacíos')
+    }
+    
   }
 
   return (

@@ -16,13 +16,11 @@ import Rancagua from "./views/Rancagua";
 import Pichilemu from "./views/Pichilemu";
 import Valparaiso from "./views/Valparaiso";
 import Bucaramanga from "./views/Bucaramanga";
-import Dossier from "./views/Dossier"
+import Dossier from "./views/Dossier";
 import BlogTetarte from "./views/BlogTetarte";
 import Create from "./components/Create";
 import Edit from "./components/Edit";
 import Show from "./components/Show";
-
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -45,7 +43,7 @@ root.render(
       <Route path="/views/BlogTetarte.jsx" element={<BlogTetarte />} />
       <Route path="/components/Create.jsx" element={<Create />} />
       <Route path="/components/Edit.jsx" element={<Edit />} />
-        <Route path="/components/Show.jsx" element={<Show />} />
+      <Route path="/components/Show.jsx" element={<Show />} />
     </Routes>
   </BrowserRouter>
 );
