@@ -26,7 +26,7 @@ const markerIcon = new L.Icon({
 });
 
 const MapViewMini = () => {
-  const position = [20, 0];
+  const position = [10, -50];
   const santiago = [-33.37791478785865, -70.728746157947735];
   const valparaiso = [-33.045375264417544, -71.61104914367112];
   const sanAntonio = [-33.5916449111982, -71.60307076789296];
@@ -44,9 +44,10 @@ const MapViewMini = () => {
   const cali = [3.4528084928951115, -76.52566694458419];
   const popayan = [2.478050506154297, -76.6109210742583];
   const mexico = [24.218561903350828, -101.76393423144421];
+  const genova = [44.422132, 8.875031]
 
   return (
-    <MapContainer center={position} zoom={0} scrollWheelZoom={false}>
+    <MapContainer center={position} zoom={1} scrollWheelZoom={false}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -151,6 +152,11 @@ const MapViewMini = () => {
         <Popup>
           <p>Zacatecas - México</p>
           <img src={Mexico} className="img-popup" alt=""></img>
+        </Popup>
+      </Marker>
+      <Marker position={genova} icon={markerIcon}>
+        <Popup>
+          <p>Genova - Italia</p>
         </Popup>
       </Marker>
     </MapContainer>

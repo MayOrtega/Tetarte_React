@@ -14,13 +14,19 @@ const Paises = () => {
         <Title title="Red TetArte 2022" />
       </div>
       <div className="div-mapView">
+      <a href="#table-paises">
+      <h1 className="title-table-paises">Ver Países y Ciudades Red Tetarte</h1>
+      </a>
         <MapView />
       </div>
       <div className="div-mapViewMini">
+      <a href="#table-paises">
+      <h1 className="title-table-paises">Ver Países y Ciudades Red Tetarte</h1>
+      </a>
         <MapViewMini />
       </div>
-      <h1 className="title-table-paises">Países Red Tetarte</h1>
-      <div class="table-paises">
+      
+      <div className="table-paises" id="table-paises">
           <section className="section-paises">
           <h1 className="h1-paises">Colombia</h1>
           <h2 className="h2-paises">Armenia</h2>
