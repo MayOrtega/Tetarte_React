@@ -858,7 +858,7 @@ border-bottom:  #fff 1px;
     margin: -1% 0 0 5%;
     font-size: 5.6vw;
     width: 100%;
-    background-color: #24242425;
+    /* background-color: #24242425; */
     border-radius: 5px;
     
   }
@@ -938,7 +938,7 @@ border-bottom:  #fff 1px;
     padding: 0 0 0 2%;
     margin: 4% 0 0 20%;
     font-size: 6vw;
-    background-color: #24242425;
+    background-color: transparent;
     border-radius: 5px;
   }
 
