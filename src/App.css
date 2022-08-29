@@ -656,11 +656,7 @@ td{
 border-bottom:  #fff 1px;
 }
 
-tbody{
-  border-radius: 10px;
-  
-}
- 
+
 
 .texto-blog-tetarte{
   margin: -1% 8% 0 8%;
@@ -677,7 +673,7 @@ tbody{
  .texto-blog-tetarte-h1{
   color: #fff;
   font-family: Century Gothic;
-  font-size: 1.6vw;
+  font-size: 1.8vw;
   margin: 10% 0 0 10%;
  }
 
@@ -698,13 +694,13 @@ tbody{
  .encabezado-blog{
   display: flex;
   flex-direction: row;
-  margin: 8% 0 0 0;
+  margin: 8% 0 0 10%;
  }
 
  .foto-blog{
   width: 12%;
   height: 4%;
-  margin: 8% 0 0 35%;
+  margin: 8% 0 0 10%;
   
  }
 
@@ -970,4 +966,41 @@ tbody{
     width: 50px;
     height: 50px;
   }
+
+  .texto-blog-tetarte{
+    margin: -1% 8% 0 8%;
+    font-size: 4vw;
+    line-height: 10px;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .encabezado-blog{
+    margin: 20% 0 5% 5%;
+   }
+
+   .texto-blog-tetarte-h1{
+    font-size: 3vw;
+    margin: 10% 0 0 15%;
+   }
+
+   .foto-blog{
+    display: none;
+   }
+
+   .title-blog-tetarte{
+    margin: 5% 0 0 20%;
+    width: 30%;
+  }
+
+  #create-comment, .title-comment{
+    color: #fff;
+    font-family: 'Kite One';
+    font-size: 4vw;
+    padding: 0;
+   }
+
+   div.row{
+    font-size: 4vw;
+   }
+
 }

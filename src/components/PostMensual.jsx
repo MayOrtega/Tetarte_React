@@ -10,7 +10,7 @@ const PostMensual = () => {
     </div>
     <div className='div-texto-blog-tetarte'>
             <h3 className='texto-blog-tetarte'>¿Alguna vez te preguntaste si decir lactancia prolongada es lo  correcto?
-La verdad es que, quizáS, es más adecuado llamarla <em>lactancia a término </em> pues, nuestra lactancia no tiene tiempo de caducidad o un cronómetro que esté indicando cuando detenerse.
+La verdad es que, quizás, es más adecuado llamarla <em>lactancia a término </em> pues, nuestra lactancia no tiene tiempo de caducidad o un cronómetro que esté indicando cuando detenerse.
 Sabemos que en Chile el post natal dura 6 meses, o para ser exactas, algo así como 5 y medio. Sin embargo, eso no tiene relación directa con el tiempo en que la diada decida dar término a la lactancia materna.  
 Es un hecho que las personas se sorprenden al ver a un menor ya pasados los dos años e incluso el año beber de la teta de su madre. ¿Por qué? Es una pregunta siempre presente, nunca fundamentada, porque los mitos son buenos responsables, sin embargo la información certera una de las grandes ausentes.
 Hoy  damos inicio a la columna TetArte, nos interesa conocer tus dudas, abordarlas, informar, desmitificar y seguir visualizando la lactancia materna.
