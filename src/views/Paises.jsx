@@ -15,13 +15,13 @@ const Paises = () => {
       </div>
       <div className="div-mapView">
       <a href="#table-paises">
-      <h1 className="title-table-paises">Ver Países y Ciudades Red Tetarte</h1>
+      <h1 className="title-table-paises">Ver Listado de Países y Ciudades Red Tetarte</h1>
       </a>
         <MapView />
       </div>
       <div className="div-mapViewMini">
       <a href="#table-paises">
-      <h1 className="title-table-paises">Ver Países y Ciudades Red Tetarte</h1>
+      <h1 className="title-table-paises">Ver Listado de Países y Ciudades Red Tetarte</h1>
       </a>
         <MapViewMini />
       </div>
