@@ -60,14 +60,17 @@ const Show = () => {
                 <tr>
                   <th>Comentario</th>
                   <th>Nombre</th>
+                  <th>E-mail</th>
                   <th>Eliminar</th>
+                  
                 </tr>
               </thead>
               <tbody>
                 {post.map((post) => (
                   <tr key={post.id}>
-                    <td>{post.comment}</td>
+                    <th>{post.comment}</th>
                     <td>{post.name}</td>
+                    <td>{post.mail}</td>
                     <td>
                       <button
                         onClick={() => {

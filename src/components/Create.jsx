@@ -4,21 +4,22 @@ import { db } from '../firebaseConfig/firebase'
 import Swal from "sweetalert2";
 
 const Create = () => {
-  const [ comment, setComment ] = useState('')
-  const [ name, setName ] = useState('')
+  const [ comment, setComment ] = useState('');
+  const [ name, setName ] = useState('');
+  const [mail, setMail] = useState ('');
 
 
   const postCollection = collection(db, "posts")
 
   const store = async (e) => {
     e.preventDefault()
-    if(name !== '' && comment !== ''){
-    await addDoc( postCollection, { comment: comment, name: name } )
+    if(name !== '' && comment !== '' && mail !== ''){
+    await addDoc( postCollection, { comment: comment, name: name, mail: mail })
     window.location.href = '../views/BlogTetarte.jsx';
     
     Swal.fire('Comentario Grabado')
     }else{
-      Swal.fire('Hay campos vacíos')
+      Swal.fire('Debes completar todos los campos')
     }
     
   }
@@ -46,8 +47,15 @@ const Create = () => {
                             onChange={ (e)=> setName(e.target.value)} 
                             type="text"
                             className='form-control'
-                            
-            
+                        />                 
+                    </div> 
+                    <div className='mb-3'>
+                        <label className='form-label'>E-mail</label>
+                        <input
+                            value={mail}
+                            onChange={ (e)=> setMail(e.target.value)} 
+                            type="mail"
+                            className='form-control'
                         />                 
                     </div>  
                     <button type='submit' className='btn btn-success' id='btn-submit-create'>Enviar</button>
