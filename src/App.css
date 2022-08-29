@@ -970,8 +970,8 @@ border-bottom:  #fff 1px;
   .texto-blog-tetarte{
     margin: -1% 8% 0 8%;
     font-size: 4vw;
-    line-height: 10px;
-    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    font-family: 'Kite One'
   }
 
   .encabezado-blog{
@@ -981,6 +981,7 @@ border-bottom:  #fff 1px;
    .texto-blog-tetarte-h1{
     font-size: 3vw;
     margin: 10% 0 0 15%;
+    font-family: 'Kite One';
    }
 
    .foto-blog{
