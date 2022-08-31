@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import like from '../img/like.png'
 
 
 const LikeButton = () => {
@@ -16,7 +17,7 @@ const LikeButton = () => {
 
   return (
     <button className={ `like-button ${isClicked && 'liked'}` } onClick={ handleClick }>
-      <span className="likes-counter">{ `Me gusta - ${likes}` }</span>
+      <span className="likes-counter"><img src={like} className='heart' alt=''></img>{ ` ${likes}` }</span>
     </button>
   );
 };
