@@ -16,7 +16,7 @@ const LikeButton = () => {
 
   return (
     <button className={ `like-button ${isClicked && 'liked'}` } onClick={ handleClick }>
-      <span className="likes-counter">{ `🎔 | ${likes}` }</span>
+      <span className="likes-counter">{ `Me gusta - ${likes}` }</span>
     </button>
   );
 };
