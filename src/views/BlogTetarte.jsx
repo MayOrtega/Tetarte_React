@@ -4,6 +4,7 @@ import Create from "../components/Create";
 import Navbar from "../components/Navbar";
 import PostMensual from "../components/PostMensual";
 import Title from "../components/Title";
+import LikeButton from "../components/LikeButton";
 
 const BlogTetarte = () => {
   return (
@@ -17,6 +18,9 @@ const BlogTetarte = () => {
         </div>
         <div className="div-post-mensual">
           <PostMensual />
+          <div className="like-button">
+          <LikeButton />
+          </div>
         </div>
         <Create />
         <Show />

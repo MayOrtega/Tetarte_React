@@ -741,6 +741,15 @@ td {
   font-weight: bold;
 }
 
+.like-button{
+  text-align: center;
+  font-family: 'Kite One';
+  font-weight: bold;
+  color:#c3bf4e;
+  background-color: transparent;
+  font-size: 1.5vw;
+
+}
 /* Mediaquerys */
 @media screen and (max-width: 1300px) {
   .content-inicio {
@@ -1075,4 +1084,10 @@ td {
   .blogger {
     width: 20%;
   }
+
+  
+.like-button{
+    font-size: 4vw;
+
+}
 }
