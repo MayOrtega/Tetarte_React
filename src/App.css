@@ -20,7 +20,8 @@ body {
   background-image: url("./img/banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 8.5%;
+  background-position-y: 6.3%;
+  position: static;
 }
 
 .banner-contacto {
@@ -35,14 +36,16 @@ body {
   background-image: url("./img/banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 7%;
+  background-position-y: 6.7%;
+  position: static;
 }
 
 .banner-proyecto {
   background-image: url("./img/banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 19%;
+  background-position-y: 18.5%;
+  position: static;
 }
 
 /* Inicio */
@@ -284,11 +287,11 @@ h3 {
 /* Contacto */
 .title-contacto {
   color: #fff;
-  background-color: #0000022a;
+  text-shadow: 1px 1px #24242485;
   width: 25%;
   font-family: "Kite One";
-  margin: 2% 1% 0 11%;
-  font-size: 2.8rem;
+  margin: 2% 1% 0 13%;
+  font-size: 3rem;
   border-radius: 10px;
   padding: 1.5% 2% 1.5% 5%;
 }
@@ -352,7 +355,7 @@ h6 {
 .title-paises {
   margin: 5% 0 0 0;
   color: #fff;
-  background-color: #0000022a;
+  text-shadow: 1px 1px #24242485;
   width: 50%;
   font-family: "Kite One";
   margin: 4% 0 2% 0;
@@ -446,9 +449,9 @@ h6 {
   width: 30%;
   font-family: "Kite One";
   color: #fff;
-  background-color: #0000022a;
+  text-shadow: 1px 1px #24242485;
   font-weight: bold;
-  margin: 2% 0 0 12%;
+  margin: 2% 0 0 14%;
   position: absolute;
   padding: 2% 3.5% 2% 3.5%;
   border-radius: 10px;
@@ -702,7 +705,7 @@ td {
 .title-blog-tetarte {
   margin: 5% 0 0 0;
   color: #fff;
-  background-color: #0000022a;
+  text-shadow: 1px 1px #24242485;
   width: 30%;
   font-family: "Kite One";
   margin: 3% 0 2% 10%;
@@ -852,7 +855,6 @@ td {
     margin: -1% 0 0 5%;
     font-size: 5.6vw;
     width: 100%;
-    /* background-color: #24242425; */
     border-radius: 5px;
   }
 
